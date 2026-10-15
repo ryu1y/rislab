@@ -26,7 +26,7 @@ ymk_662,C662,1394,敷島営業所,ymk,journey_yk.png,1,KC-LR333F,1997
 ymk_663,C663,1395,身延営業所,ymk,journey_yk.png,1,KC-LR333F,1997
 ymk_752,C752,395,塩山営業所,ymk,journey_kk.png,1,KC-LR333J,1996
 ymk_757,C757,415,甲府営業所,ymk,journey_kk.png,1,KC-LR333F改,1997
-ymk_779,C779,523,甲府営業所,ymk,journey_kk.png,1,KC-LR333F改,1997
+ymk_779,C831,754,敷島営業所,ymk,ymk_lv.png,1,KK-LR233J1,
 ymk_780,C780,535,鰍沢営業所,ymk,journey_kk.png,1,KC-LR333J改,1997
 ymk_784,C784,569,敷島営業所,ymk,ymk_lv.png,1,KC-LR233F改,1998
 ymk_808,C808,622,身延営業所,ymk,jurney_kk.png,1,,KC-LR333J,1998
@@ -153,14 +153,15 @@ ymk_200829,829,829,鰍沢営業所,ymk,heyakyan.png,1,PDG-LR234J2 ゆるキャ�
 ymk_589276,C815,705,敷島営業所,ymk,ymk_lv.png,1,KK-LR233J1,
 ymk_317706,C895,974,敷島営業所,ymk,nanpusu2.png,1,SKG-HX9JLBE ピンク,2015
 ymk_,,,敷島営業所,ymk,alfa_l10.png,1,,
-ymk_981921,,1060,敷島営業所,ymk,nanpusu3.png,1,緑,
+ymk_981921,---,1060,敷島営業所,ymk,nanpusu3.png,1,緑,
 ymk_317701,,,敷島営業所,ymk,ymk_lv.png,1,,
 ymk_917,C917,1019,敷島営業所,ymk,nanpusu1.png,1,SKG-HX9JLBE ,2012
 ymk_753583,C927,1040,敷島営業所,ymk,alfa_l10.png,1,ECITY L10,
 ymk_786329,C939,1092,敷島営業所,ymk,alfa_l10.png,1,ECITY L10,
+ymk_573437,C938,1093,鰍沢営業所,ymk,alfa_l10.png,1,ECITY L10,
 ymk_580523,c841,801,敷島営業所,ymk,ymk_lv.png,1,SKG-LR290J2,
 ymk_2024,C779,523,甲府営業所,ymk,journey_kk.png,1,KC-LR333J改,
-ymk_999999,C885,953,敷島営業所,ymk,ymk_lv.png,1,KK-LR233J1改,
+ymk_999999,C659,1373,敷島営業所,ymk,journey_yk.png,1,KC-LR333F,
 fjb_1878,F1878,1878,営業所,fjb,Fujikyu.png,1,,
 fjb_51,F0051,51,営業所,fjb,Fujikyu.png,1,BYD K9,,
 fjb_52,F0052,52,営業所,fjb,Fujikyu.png,1,BYD K9,,
