@@ -159,7 +159,7 @@ ymk_573437,C938,1093,鰍沢営業所,ymk,alfa_l10.png,1,ECITY L10,
 ymk_580523,c841,801,敷島営業所,ymk,ymk_lv.png,1,SKG-LR290J2,
 ymk_778937,c883,941,敷島営業所,ymk,ymk_lv.png,1,KK-LR233J1改,2003
 ymk_2024,C779,523,甲府営業所,ymk,journey_kk.png,1,KC-LR333J改,
-ymk_999999,C659,1373,敷島営業所,ymk,journey_yk.png,1,KC-LR333F,1996
+ymk_999999,C659,1373,敷島営業所,ymk,journey_yk.png,1,KC-LR333F ※C885とuidが重複しているので注意,1996
 fjb_1878,F1878,1878,営業所,fjb,290green_fuji.png,1,2TG-KV290N2,
 fjb_51,F0051,51,営業所,fjb,byd_k9.png,1,BYD K9,,
 fjb_52,F0052,52,営業所,fjb,byd_k9.png,1,BYD K9,,
