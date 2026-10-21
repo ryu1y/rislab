@@ -37,9 +37,9 @@ ymk_833,C833,769,韮崎営業所,ymk,ymk_lv.png,1,KK-LR233J1改,2000
 ymk_842,C842,800,伊勢町営業所,ymk,ymk_lv.png,1,KK-LR233J1改,2000
 ymk_816,C816,707,塩山営業所,ymk,ymk_lv.png,1,KK-RN252CSN,2001
 ymk_844,C844,816,身延営業所,ymk,ymk_lv.png,1,KK-LR333J1,2001
-ymk_3310,,3310,鰍沢営業所,ymk,ymk_lv.png,1,KK-RX4JFEA,2001
+ymk_3310,,3310,鰍沢営業所,ymk,p_yk.png,1,KK-RX4JFEA,2001
 ymk_83,,83,塩山営業所,ymk,ymk_lv.png,1,KK-HR1JEEE,2002
-ymk_810,C810,653,伊勢町営業所,ymk,ymk_lv.png,1,KK-LR233J1改,2002
+ymk_810,C810,653,伊勢町営業所,ymk,hr_yk.png,1,KK-HRJEEE,2002
 ymk_815,C815,705,敷島営業所,ymk,ymk_lv.png,1,KK-LR233J1改,2002
 ymk_817,C817,710,敷島営業所,ymk,ymk_lv.png,1,KK-LR233J1改,2002
 ymk_818,C818,711,敷島営業所,ymk,ymk_lv.png,1,KK-LR233J1改,2002
@@ -77,8 +77,8 @@ ymk_860,C860,863,韮崎営業所,ymk,ymk_lv.png,1,KK-LR233J1改,2003
 ymk_888,C888,957,塩山営業所,ymk,ymk_lv.png,1,KK-LR233J1改,2003
 ymk_889,C889,958,伊勢町営業所,ymk,ymk_lv.png,1,KL-LV280L1,2003
 ymk_893,C893,1047,鰍沢営業所,ymk,ymk_lv.png,1,KL-LV280L1,2003
-ymk_987,C904,987,敷島営業所,ymk,ymk_lv.png,1,KK-RX4JFEA,2003
-ymk_905,C905,988,敷島営業所,ymk,ymk_lv.png,1,KK-RX4JFEA,2003
+ymk_987,C904,987,敷島営業所,ymk,p_yk.png,1,KK-RX4JFEA,2003
+ymk_905,C905,988,敷島営業所,ymk,p_yk.png,1,KK-RX4JFEA,2003
 ymk_922,C922,1029,伊勢町営業所,ymk,ymk_lv.png,1,KL-LV280L1,2004
 ymk_840,C840,793,敷島営業所,ymk,ymk_lv.png,1,PB-RX6JFAA,2004
 ymk_853,C853,855,敷島営業所,ymk,ymk_lv.png,1,KL-LV280L1,2005
@@ -110,12 +110,12 @@ ymk_762,C762,440,韮崎営業所,ymk,ymk_lv.png,1,PDG-LR234J2,2008
 ymk_768,C768,474,伊勢町営業所,ymk,ymk_lv.png,1,PDG-LR234J2,2008
 ymk_769,C769,475,敷島営業所,ymk,ymk_lv.png,1,PDG-LR234J2,2008
 ymk_770,C770,476,韮崎営業所,ymk,ymk_lv.png,1,PDG-LR234J2,2008
-ymk_920,C920,1025,甲府営業所,ymk,ymk_lv.png,1,PDG-RX6JFEJ,2009
+ymk_920,C920,1025,甲府営業所,ymk,p_yk.png,1,PDG-RX6JFEJ,2009
 ymk_776,C776,510,伊勢町営業所,ymk,ymk_lv.png,1,PDG-LR234J2,2010
 ymk_777,C777,511,韮崎営業所,ymk,ymk_lv.png,1,PDG-LR234J2,2010
 ymk_916,C916,1016,敷島営業所,ymk,c916_yk.png,1,PDG-KR234J2　天窓,2010
 ymk_917,C917,1019,敷島営業所,ymk,ymk_lv.png,1,SKG-HX9JLBE,2012
-ymk_691,,691,韮崎営業所,ymk,ymk_lv.png,1,SKG-HX9JLBE,2014
+ymk_691,,691,韮崎営業所,ymk,p_yk.png,1,SKG-HX9JLBE 韮崎市民バス,2014
 ymk_895,C895,974,敷島営業所,ymk,ymk_lv.png,1,SDG-HX9JLBE,2015
 ymk_911,C911,1003,敷島営業所,ymk,nanpusu5.png,1,SDG-HX9JLBE,2015
 ymk_841,C841,801,敷島営業所,ymk,lr290_yk.png,1,SKG-LR290J2,2016
@@ -124,9 +124,9 @@ ymk_858,C858,861,伊勢町営業所,ymk,lr290_yk.png,1,2KG-LR290J3,2017
 ymk_862,C862,867,清里車庫,ymk,ymk_lv.png,1,2KG-KR290J3,2018
 ymk_863,C863,868,清里車庫,ymk,ymk_lv.png,1,2KG-KR290J3,2018
 ymk_956,C894,956,敷島営業所,ymk,nanpusu6.png,1,2DG-HX9JLCE 紫,2020
-ymk_896,C896,970,塩山営業所,ymk,ymk_lv.png,1,2DG-HX9JLCE,2020
-ymk_897,C897,971,塩山営業所,ymk,ymk_lv.png,1,2DG-HX9JLCE,2020
-ymk_898,C898,972,塩山営業所,ymk,ymk_lv.png,1,2DG-HX9JLCE,2020
+ymk_896,C896,970,塩山営業所,ymk,wine_yk.png,1,2DG-HX9JLCE,2020
+ymk_897,C897,971,塩山営業所,ymk,wine_yk.png,1,2DG-HX9JLCE,2020
+ymk_898,C898,972,塩山営業所,ymk,wine_yk.png,1,2DG-HX9JLCE,2020
 ymk_900,C900,982,敷島営業所,ymk,lr290_yk.png,1,2KG-LR290J4,2021
 ymk_909,C909,996,敷島営業所,ymk,alfa_l10.png,1,ECITY L10,2021
 ymk_910,C910,997,敷島営業所,ymk,alfa_l10.png,1,ECITY L10,2021
@@ -180,15 +180,15 @@ fjb_663,F0663,663,営業所,fjb,byd_k8.png,1,BYD K8 2.0,,
 fjb_664,F0664,664,甲府営業所,fjb,byd_k8.png,1,BYD K8 2.0,,
 fjb_665,F0665,665,営業所,fjb,byd_k8.png,1,BYD K8 2.0,,
 fjb_666,F0666,666,営業所,fjb,byd_k8.png,1,BYD K8 2.0,,
-fjb_1461,F1461,1461,営業所,fjb,Fujikyu.png,1,SDG-HX9JLBE,2014,
+fjb_1461,F1461,1461,営業所,fjb,fuji_p.png,1,SDG-HX9JLBE RED LINE,2014,
 fjb_1465,F1465,1465,本社営業所,fjb,ybrid.png,1,LNG-HU8JMGP,
 fjb_1466,F1466,1466,甲府営業所,fjb,ybrid.png,1,LNG-HU8JMGP,
 fjb_1471,F1471,1471,営業所,fjb,Fujikyu.png,1,,
 fjb_1478,F1478,1478,営業所,fjb,fuji_kv.png,1,QPG-KV234N3,2014,
 fjb_1562,F1562,1562,甲府営業所,fjb,fuji_kv.png,1,QPG-KV234N3,2014,
-fjb_1568,F1568,1568,営業所,fjb,Fujikyu.png,1,SDG-HX9JLBE,
-fjb_1569,F1569,1569,営業所,fjb,Fujikyu.png,1,SDG-HX9JLBE,
-fjb_1570,F1570,1570,営業所,fjb,Fujikyu.png,1,SDG-HX9JLBE,
+fjb_1568,F1568,1568,営業所,fjb,fuji_p.png,1,SDG-HX9JLBE REEN LINE,
+fjb_1569,F1569,1569,営業所,fjb,fuji_p.png,1,SDG-HX9JLBE ふじっ湖号,
+fjb_1570,F1570,1570,営業所,fjb,uji_p.png,1,SDG-HX9JLBE,
 fjb_1663,F1663,1663,本社営業所,fjb,290HL_fuji.png,1,QSG-HL2ASAP,2016,
 fjb_1664,F1664,1664,本社営業所,fjb,290HL_fuji.png,1,QSG-HL2ASAP,2016,
 fjb_1665,F1665,1665,営業所,fjb,290HL_fuji.png,1,QSG-HL2ASAP,2016,
@@ -261,7 +261,7 @@ fmo_4963,G4963,4963,御殿場営業所,fmo,fuji_lv.png,1,PKG-LV234N2,2009
 fjb_1364,F1364,1364,上野原営業所,fjb,fuji_kv.png,1,QKG-KV234N3,
 fjb_1375,F1375,1375,上野原営業所,fjb,ybrid.png,1,LNG-HU8JMGP,
 fjb_1561,F1561,1561,上野原営業所,fjb,ybrid.png,1,LNG-HU8JMGP,
-fjb_1571,F1571,1571,上野原営業所,fjb,Fujikyu.png,1,SDG-HX9JLBE,
+fjb_1571,F1571,1571,上野原営業所,fjb,fuji_p.png,1,SDG-HX9JLBE,
 fjb_1674,F1674,1674,上野原営業所,fjb,290normal_fuji.png,1,QRG-KV290Q1,2016
 fjb_1675,F1675,1675,上野原営業所,fjb,290normal_fuji.png,1,QRG-KV290Q1,2016
 fjb_2861,F2861,2861,上野原営業所,fjb,ybrid.png,1,BJG-HU8JMFP,
@@ -299,18 +299,18 @@ fsb_568,W568,,鷹岡営業所,fsb,evmj.png,1,evmj F8,2024,
 fsb_569,W569,,鷹岡営業所,fsb,evmj.png,1,evmj F8,2024,
 fsb_672,W672,,鷹岡営業所,fsb,evmj.png,1,evmj F8,2026,
 fsb_1081,W1081,1081,営業所,fsb,fuji_lv.png,1,PDG-KR234J2,,
-fsb_1164,W1164,1164,営業所,fsb,Fujikyu.png,1,BDG-HX6JHAE,2011,
-fsb_1165,W1165,1165,営業所,fsb,Fujikyu.png,1,BDG-HX6JHAE,2011,
+fsb_1164,W1164,1164,営業所,fsb,fuji_yellow.png,1,BDG-HX6JHAE,2011,
+fsb_1165,W1165,1165,営業所,fsb,fuji_yellow.png,1,BDG-HX6JHAE,2011,
 fsb_1291,W1291,1291,営業所,fsb,fuji_1291.png,1,U-RJ3HJAA,,
 fsb_1478,W1478,1478,鷹岡営業所,fuji_kv.png,1,,2014,
 fsb_1568,W1568,1568,営業所,fsb,Fujikyu.png,1,,,
 fsb_1668,W1668,1668,鷹岡営業所,fsb,290normal_fuji.png,1,QRG-KV290Q1,2016,
-fsb_1766,W1766,1766,営業所,fsb,Fujikyu.png,1,SDG-HX9JHBE,,
+fsb_1766,W1766,1766,営業所,fsb,fuji_yellow.png,1,SDG-HX9JHBE,,
 fsb_1770,W1770,1770,鷹岡営業所,fsb,290normal_fuji.png,1,,2017,
 fsb_1777,W1777,1777,営業所,fsb,290normal_fuji.png,1,2KG-KR290J3,,
 fsb_1778,W1778,1778,営業所,fsb,290normal_fuji.png,1,2KG-KR290J3,,
 fsb_1779,W1779,1779,営業所,fsb,290normal_fuji.png,1,2KG-KR290J3,,
-fsb_1868,W1868,1868,営業所,fsb,Fujikyu.png,1,2DG-HX9JLCE,2018,
+fsb_1868,W1868,1868,営業所,fsb,fuji_p.png,1,2DG-HX9JLCE,2018,
 fsb_2165,W2165,2165,富士宮営業所,fsb,city.png,1,KL-HU2PMEA,2001,
 fsb_2251,W2251,2251,営業所,fsb,fuji_hr.png,1,KK-HRJKEE,,
 fsb_2253,W2253,2253,営業所,fsb,fuji_hr.png,1,KK-HRJKEE,,
