@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="バス位置情報APIを調べるときの技術メモ">
+  <title>バス位置情報APIを調べるときのメモ | RISLAB</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;font-family:"Meiryo","Segoe UI",sans-serif;background:#101827;color:#f1f5f9;line-height:1.9}
+    a{color:#38bdf8;text-decoration:none}header{padding:18px 7%;border-bottom:1px solid #293548;display:flex;justify-content:space-between;align-items:center}
+    .logo{color:#f1f5f9;font-size:1.5rem;font-weight:800;letter-spacing:2px}.logo span{color:#38bdf8}.nav{font-size:.9rem}
+    article{max-width:780px;margin:auto;padding:48px 7% 80px}.meta{color:#38bdf8;font-size:.85rem}.eyebrow{color:#94a3b8;font-size:.8rem;letter-spacing:2px}
+    h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.35;margin:12px 0 18px}h2{margin-top:38px;padding-bottom:8px;border-bottom:1px solid #334155;font-size:1.45rem}
+    p,li{color:#d2dae5}.lead{font-size:1.08rem;color:#a9b8cc}.callout{padding:16px 18px;background:#192538;border-left:3px solid #38bdf8;border-radius:0 10px 10px 0;color:#cbd5e1}
+    code{background:#253449;padding:2px 5px;border-radius:4px;color:#bae6fd}pre{overflow:auto;background:#0b1220;border:1px solid #334155;border-radius:10px;padding:16px;color:#cbd5e1}
+    footer{text-align:center;border-top:1px solid #293548;padding:24px;color:#94a3b8;font-size:.85rem}
+  </style>
+</head>
+<body>
+<header><a class="logo" href="../../">RIS<span>LAB</span></a><a class="nav" href="../">記事一覧へ</a></header>
+<article>
+  <div class="eyebrow">TECH NOTES</div>
+  <div class="meta">技術メモ · サンプル記事</div>
+  <h1>バス位置情報APIを調べるときのメモ</h1>
+  <p class="lead">APIの通信内容やJSONの構造を確認し、サイトで使うデータを把握するための基本的な手順です。</p>
+
+  <div class="callout">調査対象のサービスの利用規約やアクセス制限を確認し、許可された範囲で調査・利用してください。認証情報や個人情報は記事に掲載しないでください。</div>
+
+  <h2>1. 通信を確認する</h2>
+  <p>自分が利用できるWebページを開き、ブラウザーの開発者ツールから Network（ネットワーク）を確認します。ページの更新時に発生する通信を見て、データ取得に関係するリクエストを探します。</p>
+  <ul>
+    <li>リクエストのメソッド（GET / POST）</li>
+    <li>送信先のURLと必要なパラメーター</li>
+    <li>リクエスト本文やContent-Type</li>
+    <li>レスポンスのステータスと本文</li>
+  </ul>
+
+  <h2>2. JSONの構造を読む</h2>
+  <p>レスポンスがJSONの場合、最上位が配列なのかオブジェクトなのかを確認します。車両データの配列がどのキーに入っているか、位置情報がどの階層にあるかを順番に調べます。</p>
+
+  <pre><code>{
+  "vehicles": [
+    {
+      "id": "example",
+      "latitude": 35.000,
+      "longitude": 138.000
+    }
+  ]
+}</code></pre>
+
+  <p>上記は構造を説明するための架空データであり、特定のAPIの実レスポンスではありません。</p>
+
+  <h2>3. ブラウザーから取得できない場合</h2>
+  <p>ブラウザーのCORS制限や、API側が要求するHTTPメソッド・ヘッダーなどが原因で、JavaScriptから直接取得できない場合があります。その場合は、利用条件を確認したうえでサーバー側の処理を使う設計を検討します。</p>
+
+  <h2>4. 調査メモに残す項目</h2>
+  <ul>
+    <li>確認した日時と対象ページ</li>
+    <li>HTTPメソッドと必要なパラメーター</li>
+    <li>レスポンスの主要なキー</li>
+    <li>更新頻度やエラー時の挙動</li>
+    <li>利用規約・公開範囲に関する注意点</li>
+  </ul>
+
+  <p><a href="../">← 制作ブログの記事一覧へ戻る</a></p>
+</article>
+<footer>© RISLAB</footer>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="RISLABの開発日記・技術記事">
+  <title>制作ブログ | RISLAB</title>
+  <style>
+    *{box-sizing:border-box} body{margin:0;font-family:"Meiryo","Segoe UI",sans-serif;background:#101827;color:#f1f5f9;line-height:1.8}
+    a{color:inherit;text-decoration:none} header{padding:18px 7%;border-bottom:1px solid #293548;display:flex;justify-content:space-between;align-items:center}
+    .logo{font-size:1.5rem;font-weight:800;letter-spacing:2px}.logo span{color:#38bdf8}.nav{color:#94a3b8;font-size:.9rem}
+    main{max-width:900px;margin:auto;padding:55px 7% 80px}.eyebrow{color:#38bdf8;font-size:.8rem;letter-spacing:3px}
+    h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.3;margin:12px 0}.lead{color:#a9b8cc;max-width:680px}
+    .filters{display:flex;flex-wrap:wrap;gap:8px;margin:28px 0}
+    .tag{border:1px solid #334155;border-radius:999px;padding:4px 12px;color:#cbd5e1;font-size:.8rem}
+    .article-list{display:grid;gap:16px}.article{display:block;background:#192538;border:1px solid #334155;border-radius:15px;padding:22px 24px;transition:border-color .2s}
+    .article:hover{border-color:#38bdf8}.meta{font-size:.8rem;color:#38bdf8}.article h2{font-size:1.25rem;margin:7px 0}.article p{color:#a9b8cc;margin:0}
+    .read{display:block;color:#38bdf8;font-weight:bold;margin-top:12px;font-size:.9rem}
+    .note{margin-top:30px;padding:16px 18px;border-left:3px solid #38bdf8;background:#192538;color:#a9b8cc;font-size:.9rem}
+    footer{text-align:center;border-top:1px solid #293548;padding:24px;color:#94a3b8;font-size:.85rem}
+  </style>
+</head>
+<body>
+<header>
+  <a class="logo" href="../">RIS<span>LAB</span></a>
+  <a class="nav" href="../">← トップページ</a>
+</header>
+<main>
+  <div class="eyebrow">DEVELOPMENT LOG & TECH NOTES</div>
+  <h1>制作ブログ</h1>
+  <p class="lead">バスロケーションサイトの開発日記と、API・地図・Web技術に関するメモをまとめています。</p>
+
+  <div class="filters">
+    <span class="tag">開発日記</span>
+    <span class="tag">技術メモ</span>
+    <span class="tag">バスロケーション</span>
+  </div>
+
+  <section class="article-list">
+    <a class="article" href="./articles/bus-location.html">
+      <div class="meta">開発日記 · サンプル記事</div>
+      <h2>バスロケーションサイトを自作する</h2>
+      <p>車両位置データを取得し、地図に表示するサイトを作る際の構成と作業の流れ。</p>
+      <span class="read">記事を読む →</span>
+    </a>
+
+    <a class="article" href="./articles/api-research.html">
+      <div class="meta">技術メモ · サンプル記事</div>
+      <h2>バス位置情報APIを調べるときのメモ</h2>
+      <p>ブラウザーの開発者ツールで通信を確認し、JSONの項目を把握するための基本。</p>
+      <span class="read">記事を読む →</span>
+    </a>
+  </section>
+
+  <div class="note">
+    新しい記事を追加するときは、<code>blog/articles/</code> にHTMLファイルを作り、このページの <code>article-list</code> にリンクを追加してください。
+  </div>
+</main>
+<footer><p>© RISLAB</p><p><a href="../">トップページへ戻る</a></p></footer>
+</body>
+</html>
