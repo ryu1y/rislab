@@ -1,0 +1,217 @@
+```html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="交通・バス・地図などの個人制作プロジェクト">
+  <title>RISLAB | Personal Projects</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Meiryo", "Segoe UI", sans-serif;
+      background: #101827;
+      color: #f1f5f9;
+      line-height: 1.7;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    header {
+      min-height: 76px;
+      padding: 16px 7%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #293548;
+    }
+
+    .logo {
+      font-size: 1.6rem;
+      font-weight: 800;
+      letter-spacing: 2px;
+    }
+
+    .logo span { color: #38bdf8; }
+
+    .header-label {
+      font-size: .85rem;
+      color: #94a3b8;
+    }
+
+    .hero {
+      max-width: 1100px;
+      margin: auto;
+      padding: 75px 7% 55px;
+    }
+
+    .eyebrow {
+      color: #38bdf8;
+      letter-spacing: 3px;
+      font-size: .8rem;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: clamp(2.3rem, 6vw, 4.2rem);
+      line-height: 1.25;
+      margin: 20px 0;
+    }
+
+    .hero p {
+      color: #a9b8cc;
+      max-width: 620px;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 0 7% 85px;
+    }
+
+    .section-heading { margin-bottom: 25px; }
+
+    .section-heading h2 {
+      margin-bottom: 4px;
+      font-size: 1.6rem;
+    }
+
+    .section-heading p {
+      margin-top: 0;
+      color: #94a3b8;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      min-height: 250px;
+      padding: 26px;
+      border: 1px solid #334155;
+      border-radius: 16px;
+      background: #192538;
+      transition: transform .2s, border-color .2s;
+    }
+
+    a.card:hover {
+      transform: translateY(-5px);
+      border-color: #38bdf8;
+    }
+
+    .icon { font-size: 2.5rem; }
+
+    .card h3 {
+      margin: 14px 0 8px;
+      font-size: 1.15rem;
+    }
+
+    .card p {
+      margin: 0;
+      color: #a9b8cc;
+      font-size: .92rem;
+    }
+
+    .link {
+      margin-top: auto;
+      padding-top: 20px;
+      color: #38bdf8;
+      font-weight: bold;
+    }
+
+    .coming-soon {
+      opacity: .7;
+      border-style: dashed;
+    }
+
+    footer {
+      padding: 25px;
+      border-top: 1px solid #293548;
+      text-align: center;
+      color: #94a3b8;
+      font-size: .85rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero { padding-top: 50px; }
+      .card { min-height: 220px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <a class="logo" href="./">RIS<span>LAB</span></a>
+    <div class="header-label">Personal Projects</div>
+  </header>
+
+  <section class="hero">
+    <div class="eyebrow">TRANSIT · MAP · TECHNOLOGY</div>
+    <h1>交通の世界を、<br>もっと身近に。</h1>
+    <p>
+      バス・鉄道・公共交通・地図・Web開発。
+      制作したサイトや個人プロジェクトをまとめています。
+    </p>
+  </section>
+
+  <main>
+    <div class="section-heading">
+      <h2>Projects</h2>
+      <p>アクセスしたいサイトを選んでください。</p>
+    </div>
+
+    <div class="projects">
+
+      <!-- 山梨 -->
+      <a class="card" href="./yamanashi/">
+        <div class="icon">🚌</div>
+        <h3>やまなしバスコンシェルジュ</h3>
+        <p>山梨県内のバス位置情報を地図上で確認するプロジェクト。</p>
+        <div class="link">サイトを開く →</div>
+      </a>
+
+      <!-- 盛岡 -->
+      <a class="card" href="./morioka/">
+        <div class="icon">🚍</div>
+        <h3>盛岡バスロケーション</h3>
+        <p>盛岡エリアのバス位置情報を確認するプロジェクト。</p>
+        <div class="link">サイトを開く →</div>
+      </a>
+
+      <!-- 鹿児島 -->
+      <a class="card" href="./kagoshima_bus/">
+        <div class="icon">🚏</div>
+        <h3>鹿児島交通バスロケ</h3>
+        <p>鹿児島エリアのバス位置情報を確認するプロジェクト。</p>
+        <div class="link">サイトを開く →</div>
+      </a>
+
+      <!-- 追加用 -->
+      <div class="card coming-soon">
+        <div class="icon">🚉</div>
+        <h3>交通プロジェクト</h3>
+        <p>鉄道や公共交通に関する地図・データなどを今後追加予定。</p>
+        <div class="link">COMING SOON</div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>© RISLAB</p>
+    <p>Personal Transit & Technology Projects</p>
+  </footer>
+</body>
+</html>
+```
