@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>仕業管理</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+    margin: 0;
+
+    padding: 20px;
+
+    background: #f5f5f5;
+
+    color: #333;
+}
+
+
+.container {
+
+    max-width: 700px;
+
+    margin: 0 auto;
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 2px 8px rgba(0,0,0,0.15);
+
+}
+
+
+h1 {
+
+    margin-top: 0;
+
+    margin-bottom: 25px;
+
+    font-size: 26px;
+
+}
+
+
+.form-group {
+
+    margin-bottom: 20px;
+
+}
+
+
+label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-weight: bold;
+
+}
+
+
+input[type="date"],
+select {
+
+    width: 100%;
+
+    padding: 12px;
+
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    background: white;
+
+}
+
+
+.buttons {
+
+    display: flex;
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+
+    margin-top: 25px;
+
+}
+
+
+button {
+
+    border: none;
+
+    border-radius: 6px;
+
+    padding: 12px 20px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+}
+
+
+#generateButton {
+
+    background: #1976d2;
+
+    color: white;
+
+}
+
+
+#viewButton {
+
+    background: #555;
+
+    color: white;
+
+}
+
+
+button:hover {
+
+    opacity: 0.85;
+
+}
+
+
+#result {
+
+    margin-top: 25px;
+
+    padding: 15px;
+
+    background: #f1f1f1;
+
+    border-radius: 6px;
+
+    line-height: 1.8;
+
+    white-space: normal;
+
+}
+
+
+.success {
+
+    color: #16803c;
+
+}
+
+
+.error {
+
+    color: #c62828;
+
+}
+
+
+.info {
+
+    color: #333;
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<h1>仕業管理</h1>
+
+
+<!-- =========================================
+     日付
+========================================= -->
+
+<div class="form-group">
+
+    <label for="date">
+        日付
+    </label>
+
+    <input
+        type="date"
+        id="date"
+    >
+
+</div>
+
+
+<!-- =========================================
+     曜日区分
+========================================= -->
+
+<div class="form-group">
+
+    <label for="dayType">
+        曜日区分
+    </label>
+
+
+    <select id="dayType">
+
+        <option value="weekday">
+            平日
+        </option>
+
+        <option value="saturday">
+            土曜
+        </option>
+
+        <option value="holiday">
+            日曜・祝日
+        </option>
+
+    </select>
+
+</div>
+
+
+<!-- =========================================
+     ボタン
+========================================= -->
+
+<div class="buttons">
+
+
+    <button
+        id="generateButton"
+        onclick="generateOperation()"
+    >
+
+        仕業を生成
+
+    </button>
+
+
+    <button
+        id="viewButton"
+        onclick="viewOperation()"
+    >
+
+        仕業を見る
+
+    </button>
+
+
+</div>
+
+
+<!-- =========================================
+     結果
+========================================= -->
+
+<div id="result">
+
+    日付と曜日区分を選択してください。
+
+</div>
+
+
+</div>
+
+
+<script>
+
+
+// ==================================================
+// 日付から曜日区分を自動設定
+// ==================================================
+
+document
+    .getElementById("date")
+    .addEventListener(
+        "change",
+        function () {
+
+            const date =
+                this.value;
+
+
+            if (!date) {
+
+                return;
+
+            }
+
+
+            const d =
+                new Date(
+                    date + "T00:00:00"
+                );
+
+
+            const w =
+                d.getDay();
+
+
+            const dayType =
+                document.getElementById(
+                    "dayType"
+                );
+
+
+            if (w === 6) {
+
+                dayType.value =
+                    "saturday";
+
+            }
+            else if (w === 0) {
+
+                dayType.value =
+                    "holiday";
+
+            }
+            else {
+
+                dayType.value =
+                    "weekday";
+
+            }
+
+        }
+    );
+
+
+// ==================================================
+// 仕業生成
+// ==================================================
+
+async function generateOperation() {
+
+
+    const date =
+        document.getElementById(
+            "date"
+        ).value;
+
+
+    const dayType =
+        document.getElementById(
+            "dayType"
+        ).value;
+
+
+    const result =
+        document.getElementById(
+            "result"
+        );
+
+
+    // ----------------------------------------------
+    // 日付チェック
+    // ----------------------------------------------
+
+    if (!date) {
+
+        result.innerHTML =
+            '<span class="error">'
+            + '日付を選択してください。'
+            + '</span>';
+
+        return;
+
+    }
+
+
+    // ----------------------------------------------
+    // 生成中
+    // ----------------------------------------------
+
+    result.innerHTML =
+        '<span class="info">'
+        + '仕業を生成しています...'
+        + '</span>';
+
+
+    try {
+
+
+        // ------------------------------------------
+        // 選択した日付・曜日区分をPHPへ送る
+        // ------------------------------------------
+
+        const url =
+            "php/operation.php"
+            + "?date="
+            + encodeURIComponent(date)
+            + "&dayType="
+            + encodeURIComponent(dayType);
+
+
+        const response =
+            await fetch(url);
+
+
+        const data =
+            await response.json();
+
+
+        // ------------------------------------------
+        // エラー
+        // ------------------------------------------
+
+        if (!data.success) {
+
+            result.innerHTML =
+
+                '<span class="error">'
+                + escapeHtml(
+                    data.message ?? "エラー"
+                )
+                + '</span>';
+
+
+            if (data.file) {
+
+                result.innerHTML +=
+                    "<br>"
+                    + escapeHtml(
+                        data.file
+                    );
+
+            }
+
+
+            return;
+
+        }
+
+
+        // ------------------------------------------
+        // 成功
+        // ------------------------------------------
+
+        result.innerHTML =
+
+            '<span class="success">'
+            + '<strong>仕業生成完了</strong>'
+            + '</span>'
+
+            + '<br>'
+
+            + '日付：'
+            + escapeHtml(
+                data.date
+            )
+
+            + '<br>'
+
+            + '曜日区分：'
+            + getDayTypeName(
+                data.dayType
+            )
+
+            + '<br>'
+
+            + '車両数：'
+            + escapeHtml(
+                String(
+                    data.busCount
+                )
+            )
+
+            + '<br>'
+
+            + '仕業数：'
+            + escapeHtml(
+                String(
+                    data.operationCount
+                )
+            )
+
+            + '<br><br>'
+
+            + '<small>'
+            + escapeHtml(
+                data.output ?? ""
+            )
+            + '</small>';
+
+
+    }
+    catch (error) {
+
+
+        console.error(error);
+
+
+        result.innerHTML =
+
+            '<span class="error">'
+            + '仕業生成中にエラーが発生しました。'
+            + '</span>'
+
+            + '<br>'
+
+            + '<small>'
+            + escapeHtml(
+                error.message
+            )
+            + '</small>';
+
+    }
+
+}
+
+
+// ==================================================
+// 仕業を見る
+// ==================================================
+
+function viewOperation() {
+
+
+    const date =
+        document.getElementById(
+            "date"
+        ).value;
+
+
+    const dayType =
+        document.getElementById(
+            "dayType"
+        ).value;
+
+
+    const result =
+        document.getElementById(
+            "result"
+        );
+
+
+    // ----------------------------------------------
+    // 日付チェック
+    // ----------------------------------------------
+
+    if (!date) {
+
+        result.innerHTML =
+            '<span class="error">'
+            + '日付を選択してください。'
+            + '</span>';
+
+        return;
+
+    }
+
+
+    // ----------------------------------------------
+    // 選択した日付をoperation_view.phpへ渡す
+    // ----------------------------------------------
+
+    const url =
+        "operation_view.php"
+        + "?date="
+        + encodeURIComponent(date)
+        + "&dayType="
+        + encodeURIComponent(dayType);
+
+
+    location.href = url;
+
+}
+
+
+// ==================================================
+// 曜日区分表示
+// ==================================================
+
+function getDayTypeName(dayType) {
+
+
+    if (dayType === "saturday") {
+
+        return "土曜";
+
+    }
+
+
+    if (dayType === "holiday") {
+
+        return "日曜・祝日";
+
+    }
+
+
+    return "平日";
+
+}
+
+
+// ==================================================
+// HTMLエスケープ
+// ==================================================
+
+function escapeHtml(value) {
+
+
+    return String(value)
+
+        .replace(
+            /&/g,
+            "&amp;"
+        )
+
+        .replace(
+            /</g,
+            "&lt;"
+        )
+
+        .replace(
+            />/g,
+            "&gt;"
+        )
+
+        .replace(
+            /"/g,
+            "&quot;"
+        )
+
+        .replace(
+            /'/g,
+            "&#039;"
+        );
+
+}
+
+
+// ==================================================
+// 初期日付
+// ==================================================
+//
+// ページを開いたときは今日の日付を設定
+// ただし「生成」するときは、この選択日を使用
+// ==================================================
+
+window.addEventListener(
+    "DOMContentLoaded",
+    function () {
+
+
+        const dateInput =
+            document.getElementById(
+                "date"
+            );
+
+
+        if (!dateInput.value) {
+
+            const now =
+                new Date();
+
+
+            const year =
+                now.getFullYear();
+
+
+            const month =
+                String(
+                    now.getMonth() + 1
+                ).padStart(
+                    2,
+                    "0"
+                );
+
+
+            const day =
+                String(
+                    now.getDate()
+                ).padStart(
+                    2,
+                    "0"
+                );
+
+
+            dateInput.value =
+                year
+                + "-"
+                + month
+                + "-"
+                + day;
+
+
+            // 今日の曜日区分を設定
+
+            const w =
+                now.getDay();
+
+
+            const dayType =
+                document.getElementById(
+                    "dayType"
+                );
+
+
+            if (w === 6) {
+
+                dayType.value =
+                    "saturday";
+
+            }
+            else if (w === 0) {
+
+                dayType.value =
+                    "holiday";
+
+            }
+            else {
+
+                dayType.value =
+                    "weekday";
+
+            }
+
+        }
+
+    }
+);
+
+</script>
+
+
+</body>
+
+</html>

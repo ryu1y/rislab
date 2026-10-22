@@ -1,0 +1,909 @@
+[
+    {
+        "Id": "00310-00001",
+        "Name": "「でんでんむし」",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00310-00001",
+            "00314-00001"
+        ]
+    },
+    {
+        "Id": "00304-00014",
+        "Name": "あすみ野箱清水線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00304-00014"
+        ]
+    },
+    {
+        "Id": "00304-00013",
+        "Name": "イオンモール盛岡線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00304-00013",
+            "00312-00012"
+        ]
+    },
+    {
+        "Id": "00310-00017",
+        "Name": "イオンモール盛岡南線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00310-00017",
+            "00311-00001",
+            "00312-00007"
+        ]
+    },
+    {
+        "Id": "00304-00016",
+        "Name": "つなぎ温泉線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00304-00016",
+            "00312-00010"
+        ]
+    },
+    {
+        "Id": "00310-00006",
+        "Name": "ふれあいランド経由川久保線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00310-00006"
+        ]
+    },
+    {
+        "Id": "00304-00005",
+        "Name": "みたけ西線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00304-00005"
+        ]
+    },
+    {
+        "Id": "00304-00004",
+        "Name": "みたけ中央線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00304-00004"
+        ]
+    },
+    {
+        "Id": "00304-00009",
+        "Name": "みたけ箱清水線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00304-00009"
+        ]
+    },
+    {
+        "Id": "00312-00016",
+        "Name": "やはばす（矢巾町コミュニティバス）",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00312-00016"
+        ]
+    },
+    {
+        "Id": "00310-00013",
+        "Name": "ゆいとぴあ東線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00310-00013",
+            "00311-00009",
+            "00312-00008"
+        ]
+    },
+    {
+        "Id": "00314-00002",
+        "Name": "営業所ターミナル線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00314-00002"
+        ]
+    },
+    {
+        "Id": "00314-00003",
+        "Name": "駅桜台団地線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00314-00003"
+        ]
+    },
+    {
+        "Id": "00314-00004",
+        "Name": "駅上田線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00314-00004"
+        ]
+    },
+    {
+        "Id": "00304-00019",
+        "Name": "繋・小岩井線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00304-00019",
+            "00312-00014"
+        ]
+    },
+    {
+        "Id": "00314-00005",
+        "Name": "県立中央病院循環線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00314-00005"
+        ]
+    },
+    {
+        "Id": "00310-00010",
+        "Name": "孝仁病院線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00310-00010"
+        ]
+    },
+    {
+        "Id": "00311-00002",
+        "Name": "桜台団地線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00311-00002",
+            "00314-00006"
+        ]
+    },
+    {
+        "Id": "00304-00017",
+        "Name": "雫石線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00304-00017",
+            "00312-00011"
+        ]
+    },
+    {
+        "Id": "00310-00011",
+        "Name": "手代森イオンモール盛岡南線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00310-00011"
+        ]
+    },
+    {
+        "Id": "00312-00013",
+        "Name": "小岩井農場線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00312-00013"
+        ]
+    },
+    {
+        "Id": "00314-00014",
+        "Name": "松園ＮＴ盛岡駅線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00314-00014"
+        ]
+    },
+    {
+        "Id": "00304-00008",
+        "Name": "松園みたけ線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00304-00008"
+        ]
+    },
+    {
+        "Id": "00314-00008",
+        "Name": "松園山岸線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00314-00008"
+        ]
+    },
+    {
+        "Id": "00314-00007",
+        "Name": "松園支線バスＣコース",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00314-00007"
+        ]
+    },
+    {
+        "Id": "00314-00009",
+        "Name": "松園盛岡駅線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00314-00009"
+        ]
+    },
+    {
+        "Id": "00314-00010",
+        "Name": "松園北高線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00314-00010"
+        ]
+    },
+    {
+        "Id": "00314-00011",
+        "Name": "上田線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00314-00011"
+        ]
+    },
+    {
+        "Id": "00310-00005",
+        "Name": "新庄線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00310-00005"
+        ]
+    },
+    {
+        "Id": "00310-00015",
+        "Name": "新庄墓園線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00310-00015"
+        ]
+    },
+    {
+        "Id": "00304-00001",
+        "Name": "厨川中央線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00304-00001"
+        ]
+    },
+    {
+        "Id": "00304-00006",
+        "Name": "盛岡北高線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00304-00006"
+        ]
+    },
+    {
+        "Id": "00310-00002",
+        "Name": "盛南ループ",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00310-00002",
+            "00311-00007",
+            "00312-00006"
+        ]
+    },
+    {
+        "Id": "00304-00002",
+        "Name": "青山町線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00304-00002"
+        ]
+    },
+    {
+        "Id": "00304-00007",
+        "Name": "青山天神線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00304-00007"
+        ]
+    },
+    {
+        "Id": "00310-00012",
+        "Name": "川久保線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00310-00012",
+            "00312-00003"
+        ]
+    },
+    {
+        "Id": "00314-00012",
+        "Name": "浅岸線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00314-00012"
+        ]
+    },
+    {
+        "Id": "00310-00007",
+        "Name": "太田線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00310-00007",
+            "00311-00008",
+            "00314-00016"
+        ]
+    },
+    {
+        "Id": "00304-00018",
+        "Name": "大釜駅線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00304-00018"
+        ]
+    },
+    {
+        "Id": "00304-00015",
+        "Name": "滝沢イオンモール盛岡線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00304-00015"
+        ]
+    },
+    {
+        "Id": "00304-00012",
+        "Name": "滝沢かつらぎ団地線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00304-00012"
+        ]
+    },
+    {
+        "Id": "00304-00011",
+        "Name": "滝沢ゆとりが丘団地線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00304-00011"
+        ]
+    },
+    {
+        "Id": "00304-00010",
+        "Name": "滝沢長橋台団地線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00304-00010"
+        ]
+    },
+    {
+        "Id": "00310-00009",
+        "Name": "中央循環線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00310-00009"
+        ]
+    },
+    {
+        "Id": "00310-00003",
+        "Name": "中央線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00310-00003"
+        ]
+    },
+    {
+        "Id": "00310-00004",
+        "Name": "長岡線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00310-00004",
+            "00311-00004"
+        ]
+    },
+    {
+        "Id": "00310-00014",
+        "Name": "津志田線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00310-00014"
+        ]
+    },
+    {
+        "Id": "00311-00010",
+        "Name": "土橋線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00311-00010"
+        ]
+    },
+    {
+        "Id": "00310-00019",
+        "Name": "道明線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00310-00019",
+            "00311-00011",
+            "00312-00015"
+        ]
+    },
+    {
+        "Id": "00304-00003",
+        "Name": "南青山町線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00304-00003"
+        ]
+    },
+    {
+        "Id": "00311-00005",
+        "Name": "日詰線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00311-00005"
+        ]
+    },
+    {
+        "Id": "00310-00008",
+        "Name": "日赤経由川久保線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00310-00008"
+        ]
+    },
+    {
+        "Id": "00314-00015",
+        "Name": "白百合学園線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00314-00015"
+        ]
+    },
+    {
+        "Id": "00310-00016",
+        "Name": "飯岡駅工業高校線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00310-00016",
+            "00312-00009"
+        ]
+    },
+    {
+        "Id": "00312-00002",
+        "Name": "飯岡線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00312-00002"
+        ]
+    },
+    {
+        "Id": "00311-00003",
+        "Name": "北高田線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00311-00003",
+            "00312-00004"
+        ]
+    },
+    {
+        "Id": "00314-00013",
+        "Name": "北山線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00314-00013"
+        ]
+    },
+    {
+        "Id": "00310-00018",
+        "Name": "本宮線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00310-00018",
+            "00312-00001"
+        ]
+    },
+    {
+        "Id": "00311-00006",
+        "Name": "矢巾医大線",
+        "ShortName": "",
+        "AliasName": "",
+        "Remarks": "",
+        "Ext": "",
+        "Color": "",
+        "TextColor": "",
+        "Order": 0,
+        "Hrkt": "",
+        "BusLineIds": [
+            "00311-00006",
+            "00312-00005"
+        ]
+    }
+]
