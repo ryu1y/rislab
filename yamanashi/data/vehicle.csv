@@ -138,7 +138,7 @@ ymk_930,C930,1057,韮崎営業所,ymk,lr290_yk.png,1,2KG-LR290J5,
 ymk_931,C931,1058,伊勢町営業所,ymk,ymk_lv.png,1,KK-LR233J1,
 ymk_946,C946,1168,敷島営業所,ymk,ymk_lv.png,1,PA-LR234J1改,
 ymk_876,C876,1155,営業所,ymk,ymk_lv.png,1,KK-LR233J1,2003
-ymk_947,C947,1151,伊勢町営業所,ymk,alfa-l10.png,1,CITY L9,
+ymk_376085,C947,1151,伊勢町営業所,ymk,alfa-l10.png,1,CITY L9,
 ymk_949,C818,711,敷島営業所,ymk,ymk_lv.png,1,KK-LR233J1改,2002
 ymk_944,C944,1141,身延営業所,ymk,ymk_lv.png,1,PA-LR234J1改,2005
 ymk_945,C945,1167,敷島営業所,ymk,ymk_lv.png,1,PA-LR234J1改,2005
@@ -317,6 +317,7 @@ fsb_2165,W2165,2165,富士宮営業所,fsb,city.png,1,KL-HU2PMEA,2001,
 fsb_2165,W2165,2165,富士宮営業所,fsb,fuji_hr.png,1,KK-HRJKEE,,
 fsb_2166,W2166,2166,富士宮営業所,fsb,fuji_hr.png,1,KK-HRJKEE,,
 fsb_2251,W2251,2251,営業所,fsb,fuji_hr.png,1,KK-HRJKEE,,
+fsb_2252,W2252,2252,営業所,fsb,fuji_hr.png,1,KK-HRJKEE,,
 fsb_2253,W2253,2253,営業所,fsb,fuji_hr.png,1,KK-HRJKEE,,
 fsb_2254,W2254,2254,営業所,fsb,fuji_hr.png,1,KK-HRJKEE,,
 fsb_2358,W2358,2358,営業所,fsb,fuji_hr.png,1,KK-HRJKEE,,
@@ -351,4 +352,6 @@ fsb_8272,W8272,8272,富士宮営業所,fsb,Fujikyu.png,1,KL-UA452MAN,2002,
 fsb_131043,みなバス,55,営業所,fsb,Fujikyu.png,1,みなバス専用ハイエース,,
 fsb_159230,うるおい,,営業所,fsb,Fujikyu.png,1,うるおい専用ハイエース,,
 fsb_240217,,,営業所,fsb,Fujikyu.png,1,,,
+fsb_850829,,,営業所,fsb,Fujikyu.png,1,,,
 fsb_944126,,,営業所,fsb,Fujikyu.png,1,,,
+fsb_999999,,,営業所,fsb,Fujikyu.png,1,,,
