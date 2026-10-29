@@ -1,0 +1,199 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: "Meiryo", "Yu Gothic", sans-serif;
+  color: #222;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 18px;
+  background: #1769aa;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.title-area h1 {
+  margin: 0;
+  font-size: 21px;
+}
+
+.subtitle {
+  margin-top: 4px;
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.toolbar input {
+  width: 245px;
+  max-width: 60vw;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 13px;
+  border: none;
+  border-radius: 5px;
+  background: #ffcf33;
+  color: #222;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(0.94);
+}
+
+button.secondary {
+  background: white;
+  color: #1769aa;
+}
+
+.status-bar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 9px 16px;
+  background: #f2f5f8;
+  border-bottom: 1px solid #ddd;
+  font-size: 13px;
+}
+
+#connectionStatus {
+  font-weight: bold;
+}
+
+#message {
+  display: none;
+  padding: 8px 16px;
+  background: #fff3cd;
+  color: #765800;
+  font-size: 13px;
+}
+
+#message.visible {
+  display: block;
+}
+
+main {
+  flex: 1;
+  min-height: 0;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  background: #e5e5e5;
+}
+
+.bus-marker-wrap {
+  background: transparent;
+  border: none;
+}
+
+.bus-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 76px;
+  transform: translateY(-2px);
+}
+
+.bus-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 30px;
+  background: #1769aa;
+  border: 2px solid white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px #0005;
+  font-size: 20px;
+}
+
+.bus-number {
+  margin-top: 2px;
+  padding: 2px 5px;
+  max-width: 76px;
+  overflow: hidden;
+  border: 1px solid #1769aa;
+  border-radius: 4px;
+  background: white;
+  color: #123e65;
+  font-size: 11px;
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-shadow: 0 1px 3px #0003;
+}
+
+.leaflet-popup-content {
+  line-height: 1.8;
+  min-width: 190px;
+}
+
+.popup-title {
+  font-size: 15px;
+  font-weight: bold;
+  color: #1769aa;
+}
+
+@media (max-width: 700px) {
+  .header {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .title-area h1 {
+    font-size: 17px;
+  }
+
+  .toolbar {
+    width: 100%;
+  }
+
+  .toolbar input {
+    flex: 1;
+    width: 100px;
+    max-width: none;
+  }
+
+  .toolbar button {
+    padding: 9px;
+    font-size: 12px;
+  }
+
+  .status-bar {
+    gap: 8px 14px;
+    padding: 8px 10px;
+    font-size: 11px;
+  }
+}
