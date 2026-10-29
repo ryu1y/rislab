@@ -84,7 +84,6 @@ function makePopup(bus) {
     <div><strong>ID：</strong>${escapeHtml(bus.id || "不明")}</div>
     <div><strong>位置時刻：</strong>${escapeHtml(bus.timestamp || "不明")}</div>
     <div><strong>遅延：</strong>${bus.lag == null ? "不明" : escapeHtml(bus.lag) + "分"}</div>
-    <div style="margin-top:7px"><button type="button" onclick="window.showVehicleRoute('${encodeURIComponent(bus.id)}')">走行ルートを表示</button></div>
   </div>`;
 }
 function readHistory() {
@@ -226,7 +225,7 @@ async function loadBusData() {
     vehicles = vehicleData && typeof vehicleData === "object" && !Array.isArray(vehicleData) ? vehicleData : {};
     routeGeometry = geometry && typeof geometry === "object" ? geometry : {};
     if (!Array.isArray(routes) || routes.length === 0) {
-      throw new Error("data/selected-routes.json に路線が登録されていません");
+      throw new Error("路線が登録されていません");
     }
     const data = await fetchRouteBuses(routes);
     allBuses = data.buses;
@@ -258,7 +257,7 @@ async function loadBusData() {
     busCount.textContent = String(allBuses.length);
     lastUpdated.textContent = new Date().toLocaleTimeString("ja-JP");
     connectionStatus.textContent = `接続中${data.errorCount ? `（エラー ${data.errorCount}）` : ""}`;
-    if (!allBuses.length) showMessage("車両位置がありません。路線IDやAPI応答を確認してください。");
+    if (!allBuses.length) showMessage("車両位置がありません。路線IDやAPIを確認してください。");
     else if (data.errorCount) showMessage(`${data.errorCount}路線で取得エラーがありました。`);
     console.log("更新結果", data);
     if (selectedVehicleId) window.showVehicleRoute(encodeURIComponent(selectedVehicleId));
