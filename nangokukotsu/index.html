@@ -1,0 +1,508 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+
+  <title>鹿児島バスロケーション</title>
+
+  <!-- Leaflet -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  >
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Meiryo", "Yu Gothic", sans-serif;
+      background: #101827;
+      color: #f1f5f9;
+    }
+
+    header {
+      background: #172338;
+      padding: 15px 20px;
+      border-bottom: 1px solid #334155;
+    }
+
+    .header-inner {
+      max-width: 1500px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+    }
+
+    h1 {
+      font-size: 21px;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      font-size: 12px;
+      color: #94a3b8;
+      margin-top: 5px;
+    }
+
+    .status {
+      font-size: 12px;
+      color: #38bdf8;
+      white-space: nowrap;
+    }
+
+    .container {
+      max-width: 1500px;
+      margin: auto;
+      padding: 15px;
+    }
+
+    .panel {
+      background: #172338;
+      border: 1px solid #334155;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 12px;
+    }
+
+    .panel-title {
+      font-size: 13px;
+      color: #94a3b8;
+      margin-bottom: 12px;
+      font-weight: bold;
+    }
+
+    .company-list {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .company-option {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 11px;
+      border-radius: 7px;
+      background: #223149;
+      cursor: pointer;
+      font-size: 13px;
+      transition: background 0.2s;
+    }
+
+    .company-option:hover {
+      background: #30435f;
+    }
+
+    .company-option input {
+      width: 17px;
+      height: 17px;
+      accent-color: #38bdf8;
+      cursor: pointer;
+    }
+
+    .search-area {
+      display: flex;
+      gap: 8px;
+    }
+
+    .search-area input {
+      flex: 1;
+      min-width: 0;
+      padding: 12px;
+      border: 1px solid #475569;
+      border-radius: 7px;
+      background: #0f172a;
+      color: white;
+      font-size: 14px;
+      outline: none;
+    }
+
+    .search-area input:focus {
+      border-color: #38bdf8;
+    }
+
+    button {
+      border: none;
+      border-radius: 7px;
+      padding: 11px 16px;
+      background: #0284c7;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 13px;
+    }
+
+    button:hover {
+      background: #0369a1;
+    }
+
+    button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .clear-button {
+      background: #475569;
+    }
+
+    .clear-button:hover {
+      background: #64748b;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .stat {
+      background: #223149;
+      border-radius: 8px;
+      padding: 12px;
+    }
+
+    .stat-label {
+      color: #94a3b8;
+      font-size: 11px;
+      margin-bottom: 6px;
+    }
+
+    .stat-value {
+      font-size: 20px;
+      font-weight: bold;
+      color: #38bdf8;
+    }
+
+    .map-panel {
+      overflow: hidden;
+      padding: 0;
+    }
+
+    #map {
+      width: 100%;
+      height: min(68vh, 760px);
+      min-height: 420px;
+      background: #dbeafe;
+    }
+
+    #message {
+      display: none;
+      padding: 12px;
+      margin-bottom: 12px;
+      border-radius: 7px;
+      background: #422b20;
+      color: #fed7aa;
+      font-size: 13px;
+    }
+
+    #message.visible {
+      display: block;
+    }
+
+    .footer {
+      text-align: center;
+      color: #64748b;
+      font-size: 11px;
+      padding: 15px 0 5px;
+    }
+
+    /* Leaflet車両マーカー */
+    .bus-marker-wrap {
+      background: transparent;
+      border: none;
+    }
+
+    .bus-marker {
+      width: 90px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .bus-icon {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      filter: drop-shadow(0 2px 2px rgba(0,0,0,0.35));
+    }
+
+    .bus-icon img {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+    }
+
+    .bus-fallback {
+      font-size: 32px;
+      line-height: 40px;
+    }
+
+    .bus-number {
+      display: inline-block;
+      max-width: 90px;
+      margin-top: -1px;
+      padding: 2px 5px;
+      border-radius: 4px;
+      background: #ffffff;
+      color: #172338;
+      border: 1px solid #334155;
+      font-size: 11px;
+      font-weight: bold;
+      line-height: 14px;
+      white-space: nowrap;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+    }
+
+    /* ポップアップ */
+    .popup-info {
+      min-width: 190px;
+      color: #1e293b;
+      font-size: 12px;
+      line-height: 1.8;
+    }
+
+    .popup-title {
+      font-size: 15px;
+      font-weight: bold;
+      color: #0369a1;
+      border-bottom: 1px solid #cbd5e1;
+      padding-bottom: 6px;
+      margin-bottom: 6px;
+    }
+
+    /* スマートフォン */
+    @media (max-width: 700px) {
+      header {
+        padding: 13px;
+      }
+
+      h1 {
+        font-size: 17px;
+      }
+
+      .header-inner {
+        align-items: flex-start;
+      }
+
+      .container {
+        padding: 9px;
+      }
+
+      .panel {
+        padding: 12px;
+      }
+
+      .company-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 7px;
+      }
+
+      .company-option {
+        padding: 10px 7px;
+        font-size: 12px;
+      }
+
+      .search-area {
+        flex-wrap: wrap;
+      }
+
+      .search-area input {
+        flex-basis: 100%;
+      }
+
+      .search-area button {
+        flex: 1;
+      }
+
+      .stats {
+        gap: 6px;
+      }
+
+      .stat {
+        padding: 9px;
+      }
+
+      .stat-value {
+        font-size: 17px;
+      }
+
+      #map {
+        height: 65vh;
+        min-height: 380px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div>
+        <h1>鹿児島バスロケシステム</h1>
+        <div class="subtitle">
+          対応路線:鹿児島市内発着路線【鹿児島交通は旧西営業所、郊外路線（それ以外は順次対応予定）】
+        </div>
+      </div>
+
+      <div class="status" id="connectionStatus">
+        接続準備中...
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- 会社選択 -->
+    <section class="panel">
+      <div class="panel-title">表示するバス会社</div>
+
+      <div class="company-list">
+
+        <label class="company-option">
+          <input
+            type="checkbox"
+            class="company-checkbox"
+            value="jp_kagoshima_kagoshimakotsu"
+            checked
+          >
+          鹿児島交通
+        </label>
+
+        <label class="company-option">
+          <input
+            type="checkbox"
+            class="company-checkbox"
+            value="jp_kagoshima_nangokukotsu"
+            checked
+          >
+          南国交通
+        </label>
+
+        <label class="company-option">
+          <input
+            type="checkbox"
+            class="company-checkbox"
+            value="jp_kagoshima_kagoshimacity_bus"
+            checked
+          >
+          鹿児島市営バス
+        </label>
+
+        <label class="company-option">
+          <input
+            type="checkbox"
+            class="company-checkbox"
+            value="jp_kagoshima_jrkyushubus"
+            checked
+          >
+          JR九州バス
+        </label>
+
+      </div>
+    </section>
+
+    <!-- 車両検索 -->
+    <section class="panel">
+      <div class="panel-title">車両・路線検索</div>
+
+      <div class="search-area">
+
+        <input
+          type="search"
+          id="searchInput"
+          placeholder="車番・ナンバー・営業所・型式・路線名・車両ID"
+          autocomplete="off"
+        >
+
+        <button id="searchButton" type="button">
+          検索
+        </button>
+
+        <button
+          id="clearButton"
+          class="clear-button"
+          type="button"
+        >
+          クリア
+        </button>
+
+      </div>
+    </section>
+
+    <!-- 統計 -->
+    <section class="panel">
+      <div class="stats">
+
+        <div class="stat">
+          <div class="stat-label">表示車両数</div>
+          <div class="stat-value" id="busCount">0</div>
+        </div>
+
+        <div class="stat">
+          <div class="stat-label">取得路線数</div>
+          <div class="stat-value" id="routeCount">0/0</div>
+        </div>
+
+        <div class="stat">
+          <div class="stat-label">最終更新</div>
+          <div class="stat-value" id="lastUpdated">--:--</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- メッセージ -->
+    <div id="message"></div>
+
+    <!-- 地図更新 -->
+    <section class="panel">
+      <div style="
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        gap:10px;
+      ">
+        <div class="panel-title" style="margin:0">
+          リアルタイム車両位置
+        </div>
+
+        <button id="refreshButton" type="button">
+          <span>↻</span> 更新
+        </button>
+      </div>
+    </section>
+
+    <!-- 地図 -->
+    <section class="panel map-panel">
+      <div id="map"></div>
+    </section>
+
+    <div class="footer">
+      鹿児島バスロケーション
+      <br>
+      Vehicle Location System
+    </div>
+
+  </main>
+
+  <!-- Leaflet -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- アプリ本体 -->
+  <script src="js/app.js"></script>
+
+</body>
+</html>
