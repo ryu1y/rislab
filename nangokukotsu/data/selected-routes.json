@@ -61,6 +61,11 @@
     "companyId": "jp_kagoshima_nangokukotsu"
   },
   {
+    "routeId": "00000019055697",
+    "routeName": "【N1】武岡ハイランド⇒ハイランド東⇒花棚",
+    "companyId": "jp_kagoshima_nangokukotsu"
+  },
+  {
     "routeId": "00000017822823",
     "routeName": "【N1】鹿児島中央駅⇒無線前⇒花棚",
     "companyId": "jp_kagoshima_nangokukotsu"
@@ -123,6 +128,21 @@
   {
     "routeId": "00000071594417",
     "routeName": "【N39】鴨池港⇒明和⇒武岡ハイランド",
+    "companyId": "jp_kagoshima_nangokukotsu"
+  },
+  {
+    "routeId": "00000100867616",
+    "routeName": "【N36-4】吉野公園⇒吉野支所前・せばる団地⇒中央駅",
+    "companyId": "jp_kagoshima_nangokukotsu"
+  },
+  {
+    "routeId": "00000100871924",
+    "routeName": "【N36-4】中央駅⇒せばる団地・吉野支所前⇒吉野公園",
+    "companyId": "jp_kagoshima_nangokukotsu"
+  },
+  {
+    "routeId": "00000151338575",
+    "routeName": "【N40-2】緑ヶ丘団地⇒下伊敷⇒鹿児島中央駅",
     "companyId": "jp_kagoshima_nangokukotsu"
   },
   {
