@@ -12,7 +12,8 @@
     "plateNo": "995",
     "model": "KC-LV380L",
     "office":"",
-    "fleetNo": "鹿交"
+    "fleetNo": "鹿交",
+    "image": "img/bus/kakou_cubic.png"
   },
   "00000012878917": {
     "plateNo": "2255",
@@ -24,7 +25,8 @@
     "plateNo": "1540",
     "model": "KC-LV380L",
     "office":"",
-    "fleetNo": "1"
+    "fleetNo": "",
+    "image": "img/bus/kakou_cubic.png"
   },
   "00000015136051": {
     "plateNo": "2468",
@@ -63,10 +65,10 @@
   },
   "00000013637685": {
     "plateNo": "82",
-    "model": "",
+    "model": "KC-UA460LAN",
     "office":"",
     "fleetNo": "",
-    "image": "img/bus/kakou_.png"
+    "image": "img/bus/kakou_7etoei.png"
   },
   "00000013874328": {
     "plateNo": "2380",
@@ -166,7 +168,8 @@
     "plateNo": "1300",
     "model": "KC-LV280L",
     "office":"枕崎",
-    "fleetNo": ""
+    "fleetNo": "",
+    "image": "img/bus/kakou_cubic.png"
   },"00000015369525": {
     "plateNo": "2027",
     "model": "KC-MP747K",
@@ -188,7 +191,38 @@
     "plateNo": "1056",
     "model": "ADG-RD00",
     "office":"リムジン",
-    "fleetNo": ""
+    "fleetNo": "",
+    "image": "img/bus/kakou.png"
+  },"00000013329263": {
+    "plateNo": "1608",
+    "model": "LDG-RD00",
+    "office":"リムジン",
+    "fleetNo": "",
+    "image": "img/bus/kakou.png"
+  },"00000013995817": {
+    "plateNo": "1609",
+    "model": "LDG-RD00",
+    "office":"リムジン",
+    "fleetNo": "",
+    "image": "img/bus/kakou.png"
+  },"00000013959430": {
+    "plateNo": "1610",
+    "model": "LDG-RD00",
+    "office":"リムジン",
+    "fleetNo": "",
+    "image": "img/bus/kakou.png"
+  },"00000013175503": {
+    "plateNo": "1611",
+    "model": "LDG-RD00",
+    "office":"リムジン",
+    "fleetNo": "",
+    "image": "img/bus/kakou.png"
+  },"00000014167329": {
+    "plateNo": "1406",
+    "model": "LDG-RD00",
+    "office":"リムジン",
+    "fleetNo": "",
+    "image": "img/bus/kakou.png"
   },"00000013204492": {
     "plateNo": "928",
     "model": "KC-HU2MMCA",
@@ -204,17 +238,20 @@
     "plateNo": "1174",
     "model": "KC-LV280L",
     "office":"知覧",
-    "fleetNo": "山陽"
+    "fleetNo": "山陽",
+    "image": "img/bus/kakou_cubic.png"
   },"00000012830552": {
     "plateNo": "1055",
     "model": "ADG-RD00",
     "office":"リムジン",
-    "fleetNo": ""
+    "fleetNo": "",
+    "image": "img/bus/kakou.png"
   },"00000012716845": {
     "plateNo": "2388",
     "model": "2DG-RD00",
     "office":"リムジン",
-    "fleetNo": ""
+    "fleetNo": "",
+    "image": "img/bus/kakou.png"
   },"00000014732532": {
     "plateNo": "1247",
     "model": "KC-LV380N",
@@ -377,7 +414,8 @@
     "plateNo": "2385",
     "model": "2DG-RD00",
     "office":"",
-    "fleetNo": "リムジン"
+    "fleetNo": "リムジン",
+    "image": "img/bus/kakou.png"
   },"00000014726884": {
     "plateNo": "1401",
     "model": "KC-MP317M",
@@ -409,7 +447,8 @@
     "plateNo": "2465",
     "model": "PKG-RA274RBN改",
     "office":"",
-    "fleetNo": "東京空港交通"
+    "fleetNo": "東京空港交通",
+    "image": "img/bus/kakou.png"
   },"00000014744693": {
     "plateNo": "1897",
     "model": "KL-LV834L1",
@@ -446,7 +485,8 @@
     "plateNo": "2445",
     "model": "PKG-RA274RBN",
     "office":"",
-    "fleetNo": "東京空港交通"
+    "fleetNo": "東京空港交通",
+    "image": "img/bus/kakou.png"
   },"00000012122969": {
     "plateNo": "1541",
     "model": "KC-LV380L",
@@ -1045,7 +1085,7 @@
     "office":"",
     "fleetNo": "市営",
     "image": "img/bus/city_kv234.png"
-  },"": {
+  },"00000019532641": {
     "plateNo": "1286",
     "model": "LKG-KV234N3",
     "office":"",
@@ -1183,7 +1223,7 @@
     "office":"",
     "fleetNo": "市営",
     "image": "img/bus/city_poncho.png"
-  },"": {
+  },"00000018086724": {
     "plateNo": "2067",
     "model": "2DG-LV290N2",
     "office":"",
@@ -1522,6 +1562,18 @@
     "office":"",
     "fleetNo": "市営",
     "image": "img/bus/city_.png"
+  },"00000018252750": {
+    "plateNo": "126",
+    "model": "KK-RX4JFEA",
+    "office":"",
+    "fleetNo": "市営",
+    "image": "img/bus/city_poncho.png"
+  },"00000019573279": {
+    "plateNo": "125",
+    "model": "KK-RX4JFEA",
+    "office":"",
+    "fleetNo": "市営",
+    "image": "img/bus/city_poncho.png"
   },
   "00000018485304": {
     "plateNo": "552",
