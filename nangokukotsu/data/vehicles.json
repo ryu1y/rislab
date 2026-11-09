@@ -550,6 +550,228 @@
     "office":"",
     "fleetNo": "神戸市交通局",
     "image": "img/bus/kakou_mp35.png"
+  },"00000012215156": {
+    "plateNo": "67",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000011926882": {
+    "plateNo": "87",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000013434410": {
+    "plateNo": "1846",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000012429339": {
+    "plateNo": "2271",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000014535966": {
+    "plateNo": "91",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000012326292": {
+    "plateNo": "1646",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000013025585": {
+    "plateNo": "1188",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000013599994": {
+    "plateNo": "1059",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000013659908": {
+    "plateNo": "1057",
+    "model": "",
+    "office":"川内",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000013509467": {
+    "plateNo": "2669",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000013227167": {
+    "plateNo": "2297",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000013805352": {
+    "plateNo": "2119",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000014864408": {
+    "plateNo": "2256",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000012916770": {
+    "plateNo": "2240",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000013905068": {
+    "plateNo": "1052",
+    "model": "",
+    "office":"リムジン",
+    "fleetNo": "",
+    "image": "img/bus/kakou.png"
+  },"00000013578684": {
+    "plateNo": "2241",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000014249149": {
+    "plateNo": "947",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000012594149": {
+    "plateNo": "66",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000014587354": {
+    "plateNo": "1097",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000014090163": {
+    "plateNo": "926",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000015073337": {
+    "plateNo": "2117",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000013971479": {
+    "plateNo": "2186",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000014669194": {
+    "plateNo": "2481",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000013095536": {
+    "plateNo": "1612",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000012985546": {
+    "plateNo": "2382",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000012311725": {
+    "plateNo": "1054",
+    "model": "",
+    "office":"リムジン",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000014202984": {
+    "plateNo": "",
+    "model": "",
+    "office":"リムジン",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000014045320": {
+    "plateNo": "930",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000014654362": {
+    "plateNo": "2330",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000013825624": {
+    "plateNo": "956",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000013768700": {
+    "plateNo": "90",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000013283230": {
+    "plateNo": "2632",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000014406856": {
+    "plateNo": "2150",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000012165033": {
+    "plateNo": "1827",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000014528190": {
+    "plateNo": "2448",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000014649596": {
+    "plateNo": "2206",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"00000015180648": {
+    "plateNo": "2452",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
   },"": {
     "plateNo": "",
     "model": "",
@@ -882,6 +1104,401 @@
     "office":"",
     "fleetNo": "南国",
     "image": "img/bus/nangoku_lv234.png"
+  },"00000023245400": {
+    "plateNo": "2179",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000021099104": {
+    "plateNo": "2120",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000022806038": {
+    "plateNo": "2277",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000022878705": {
+    "plateNo": "2296",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000005303618": {
+    "plateNo": "668",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"0000004818895": {
+    "plateNo": "2131",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000004798517": {
+    "plateNo": "1250",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000023273806": {
+    "plateNo": "2188",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000023219085": {
+    "plateNo": "2172",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000004938355": {
+    "plateNo": "875",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000004206705": {
+    "plateNo": "771",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000023234628": {
+    "plateNo": "2168",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000004316187": {
+    "plateNo": "1692",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000034990799": {
+    "plateNo": "2716",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000004365743": {
+    "plateNo": "1800",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"000000023173170": {
+    "plateNo": "2195",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000022348111": {
+    "plateNo": "2147",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000005393228": {
+    "plateNo": "874",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000022910182": {
+    "plateNo": "2305",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000005227752": {
+    "plateNo": "2600",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000022830499": {
+    "plateNo": "2290",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000004196656": {
+    "plateNo": "1689",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000022884339": {
+    "plateNo": "2297",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000023126406": {
+    "plateNo": "2204",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000021103953": {
+    "plateNo": "2130",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000035049055": {
+    "plateNo": "2622",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000004315187": {
+    "plateNo": "1692",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000005324343": {
+    "plateNo": "919",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000004818895": {
+    "plateNo": "2131",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000004591463": {
+    "plateNo": "737",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"00000004403592": {
+    "plateNo": "862",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": ""
   },"": {
     "plateNo": "",
     "model": "",
@@ -1013,7 +1630,7 @@
     "office":"",
     "fleetNo": "市営",
     "image": "img/bus/city_mp37.png"
-  },"": {
+  },"00000018547305": {
     "plateNo": "1534",
     "model": "QKG-MP37FM",
     "office":"",
@@ -1481,13 +2098,13 @@
     "office":"",
     "fleetNo": "市営",
     "image": "img/bus/city_lv290.png"
-  },"": {
+  },"00000018264886": {
     "plateNo": "2514",
     "model": "2KG-LR290J5",
     "office":"",
     "fleetNo": "市営",
     "image": "img/bus/city_lv290.png"
-  },"": {
+  },"00000018846281": {
     "plateNo": "2513",
     "model": "2KG-LR290J5",
     "office":"",
@@ -1511,7 +2128,7 @@
     "office":"",
     "fleetNo": "市営",
     "image": "img/bus/city_lv234.png"
-  },"": {
+  },"00000019233560": {
     "plateNo": "1016",
     "model": "PKG-RA274MAN",
     "office":"",
@@ -1523,7 +2140,7 @@
     "office":"",
     "fleetNo": "市営",
     "image": "img/bus/city_nishiko.png"
-  },"": {
+  },"00000019215433": {
     "plateNo": "2519",
     "model": "EVM-J F8 series2",
     "office":"",
@@ -1611,6 +2228,16 @@
   },"00000020600836": {
     "plateNo": "1203",
     "model": "2KG-LV290N3",
+    "office":"",
+    "fleetNo": "JR"
+  },"00000020511957": {
+    "plateNo": "1803",
+    "model": "",
+    "office":"",
+    "fleetNo": "JR"
+  },"00000020560213": {
+    "plateNo": "1416",
+    "model": "",
     "office":"",
     "fleetNo": "JR"
   }
