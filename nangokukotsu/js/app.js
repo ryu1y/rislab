@@ -255,6 +255,7 @@ function makePopup(bus) {
   const company = escapeHtml(getCompanyName(bus));
   const model = escapeHtml(info.model || "未登録");
   const office = escapeHtml(info.office || "未登録");
+  const originalCompany = escapeHtml(info.fleetNo || "未登録");
 
   return `
     <div class="popup-info">
@@ -267,6 +268,7 @@ function makePopup(bus) {
         <strong>会社：</strong>${company}
       </div>
 
+      
       <div>
         <strong>路線：</strong>
         ${escapeHtml(bus.routeName || "路線情報なし")}
@@ -278,6 +280,10 @@ function makePopup(bus) {
 
       <div>
         <strong>所属：</strong>${office}
+      </div>
+     
+      <div>
+        <strong>元事業者：</strong>${originalCompany}
       </div>
 
       <div>
