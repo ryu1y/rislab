@@ -1422,6 +1422,10 @@
     "routeId": "00000081547874",
     "routeName": "【N46-2】明和⇒原・中央⇒鹿児島駅前",
     "companyId": "jp_kagoshima_nangokukotsu"
+  },{
+    "routeId": "00000101099774",
+    "routeName": "【N160】高速船ターミナル⇒鹿児島中央駅",
+    "companyId": "jp_kagoshima_nangokukotsu"
   },
 
 
