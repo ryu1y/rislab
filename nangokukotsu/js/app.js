@@ -128,20 +128,24 @@ function getCompanyName(bus) {
 }
 
 // ナンバー取得
+// ナンバー表示
 function plateLabel(bus) {
+  const info = getVehicleInfo(bus.id);
 
-  // 鹿児島市営バスはPINAのnumberを使用
+  // vehicles.json に登録されたナンバーがあれば最優先
+  if (info.plateNo && String(info.plateNo).trim() !== "") {
+    return String(info.plateNo).trim();
+  }
+
+  // 市営バスは、登録がない場合のみAPIのnumberを使用
   if (bus.companyId === "jp_kagoshima_kagoshimacity_bus") {
+    const number = String(bus.number || "").trim();
 
-    const match = String(bus.number || "").match(/\d{4}/);
-
+    const match = number.match(/\d{4}/);
     return match ? match[0] : "未登録";
   }
 
-  // ほかの3社はvehicles.jsonを使用
-  const info = getVehicleInfo(bus.id);
-
-  return String(info.plateNo || "").trim() || "未登録";
+  return "未登録";
 }
 
 // 会社別デフォルト画像取得
