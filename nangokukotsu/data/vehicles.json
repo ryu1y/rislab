@@ -5,55 +5,55 @@
     "plateNo": "2273",
     "model": "KL-UA452KAN改",
     "office":"",
-    "fleetNo": "鹿交",
+    "fleetNo": "関東バス",
     "image": "img/bus/kakou_nishikosyoki.png"
   },
   "00000012142900": {
     "plateNo": "995",
     "model": "KC-LV380L",
     "office":"",
-    "fleetNo": "鹿交",
+    "fleetNo": "国際興業",
     "image": "img/bus/kakou_cubic.png"
   },
   "00000012878917": {
     "plateNo": "2255",
     "model": "KL-LV280L1",
     "office":"",
-    "fleetNo": "鹿交"
+    "fleetNo": "国際興業"
   },
   "00000014189504": {
     "plateNo": "1540",
     "model": "KC-LV380L",
     "office":"",
-    "fleetNo": "",
+    "fleetNo": "神奈中",
     "image": "img/bus/kakou_cubic.png"
   },
   "00000015136051": {
     "plateNo": "2468",
     "model": "KL-UA452MAN",
     "office":"",
-    "fleetNo": "鹿交",
+    "fleetNo": "高槻市交通部",
     "image": "img/bus/kakou_nishikokouki.png"
   },
   "00000014126710": {
     "plateNo": "1736",
     "model": "KL-UA272KAM改",
     "office":"",
-    "fleetNo": "鹿交",
+    "fleetNo": "西武",
     "image": "img/bus/kakou_nishikosyoki.png"
   },
   "00000013535182": {
     "plateNo": "2161",
     "model": "KL-HR1JNEE",
     "office":"",
-    "fleetNo": "鹿交",
+    "fleetNo": "京阪宇治",
     "image": "img/bus/kakou_hr.png"
   },
   "00000014012326": {
     "plateNo": "2051",
     "model": "KL-HR1JNEE",
     "office":"",
-    "fleetNo": "",
+    "fleetNo": "東京都交通局",
     "image": "img/bus/kakou_hr.png"
   },
   "00000012975895": {
@@ -74,13 +74,13 @@
     "plateNo": "2380",
     "model": "KL-LV280N1",
     "office":"",
-    "fleetNo": ""
+    "fleetNo": "西武"
   },
   "00000012515974": {
     "plateNo": "2247",
     "model": "PJ-MP35JM",
     "office":"",
-    "fleetNo": "",
+    "fleetNo": "神奈中",
     "image": "img/bus/kakou_mp35kana.png"
   },
   "00000012644267": {
@@ -94,14 +94,15 @@
     "plateNo": "1759",
     "model": "KL-UA272KAM改",
     "office":"",
-    "fleetNo": "",
+    "fleetNo": "西武",
     "image": "img/bus/kakou_nishikosyoki.png"
   },
   "00000013563388": {
     "plateNo": "886",
     "model": "KC-UA460LAN",
     "office":"",
-    "fleetNo": "鹿交"
+    "fleetNo": "鹿交",
+    "image": "img/bus/kakou_hu.png"
   },
   "00000014688820": {
     "plateNo": "2525",
@@ -114,14 +115,14 @@
     "plateNo": "1813",
     "model": "KL-LV280N1改",
     "office":"",
-    "fleetNo": ""
+    "fleetNo": "京成"
   },
   
   "00000022863370": {
     "plateNo": "2293",
     "model": "PJ-MP35JM",
-    "office":"神奈中",
-    "fleetNo": "南国",
+    "office":"",
+    "fleetNo": "神奈中",
     "image": "img/bus/nangoku_mp35kana.png"
   },
   "00000004251046": {
@@ -135,58 +136,58 @@
     "plateNo": "2611",
     "model": "PJ-LV234L1",
     "office":"鹿児島",
-    "fleetNo": "鹿交"
+    "fleetNo": "国際興業"
   },"00000022900935": {
     "plateNo": "2302",
     "model": "PJ-MP35JM",
     "office":"",
-    "fleetNo": "南国",
+    "fleetNo": "神奈中",
     "image": "img/bus/nangoku_mp35kana.png"
   },"00000015217163": {
     "plateNo": "2400",
     "model": "PJ-LV234N1",
     "office":"桜ヶ丘",
-    "fleetNo": "鹿交"
+    "fleetNo": "新京成"
   },"00000015254876": {
     "plateNo": "2394",
     "model": "KL-LV280L1改",
     "office":"",
-    "fleetNo": "鹿交"
+    "fleetNo": "相鉄"
   },"00000013452982": {
     "plateNo": "2182",
     "model": "KL-JP252NAN改",
     "office":"",
-    "fleetNo": "",
+    "fleetNo": "京王",
     "image": "img/bus/kakou_nishikosyoki.png"
   },"00000012415048": {
     "plateNo": "1918",
     "model": "KL-JP252NAN改",
     "office":"",
-    "fleetNo": "",
+    "fleetNo": "西東京",
     "image": "img/bus/kakou_nishikosyoki.png"
   },"00000015322918": {
     "plateNo": "1300",
     "model": "KC-LV280L",
     "office":"枕崎",
-    "fleetNo": "",
+    "fleetNo": "神戸市交通局",
     "image": "img/bus/kakou_cubic.png"
   },"00000015369525": {
     "plateNo": "2027",
     "model": "KC-MP747K",
     "office":"",
-    "fleetNo": "",
+    "fleetNo": "阪急",
     "image": "img/bus/kakou_nishikokouki.png"
   },"00000013085807": {
     "plateNo": "2236",
     "model": "KL-MP35JM",
     "office":"",
-    "fleetNo": "",
+    "fleetNo": "神奈中",
     "image": "img/bus/kakou_mp35kana.png"
   },"00000014518233": {
     "plateNo": "2414",
     "model": "KL-LV280L1",
     "office":"",
-    "fleetNo": ""
+    "fleetNo": "国際興業"
   },"00000014082901": {
     "plateNo": "1056",
     "model": "ADG-RD00",
@@ -227,12 +228,13 @@
     "plateNo": "928",
     "model": "KC-HU2MMCA",
     "office":"",
-    "fleetNo": ""
+    "fleetNo": "鹿交",
+    "image": "img/bus/kakou_hu.png"
   },"00000014970591": {
     "plateNo": "2207",
     "model": "KL-JP252NAN改",
     "office":"",
-    "fleetNo": "",
+    "fleetNo": "京王",
     "image": "img/bus/kakou_nishikosyoki.png"
   },"00000015378346": {
     "plateNo": "1174",
@@ -273,7 +275,8 @@
     "plateNo": "1680",
     "model": "KC-HU2MMCA",
     "office":"",
-    "fleetNo": "京阪"
+    "fleetNo": "京阪",
+    "image": "img/bus/kakou_hu.png"
   },"00000013395965": {
     "plateNo": "2200",
     "model": "KK-RM252GAN",
@@ -409,7 +412,8 @@
     "plateNo": "1188",
     "model": "KC-HT2MMCA",
     "office":"",
-    "fleetNo": "京成"
+    "fleetNo": "京成",
+    "image": "img/bus/kakou_hu.png"
   },"00000014101896": {
     "plateNo": "2385",
     "model": "2DG-RD00",
@@ -470,7 +474,8 @@
     "plateNo": "1039",
     "model": "KC-HU3KMCA",
     "office":"",
-    "fleetNo": "鹿交"
+    "fleetNo": "鹿交",
+    "image": "img/bus/kakou_hu.png"
   },"00000014875967": {
     "plateNo": "1989",
     "model": "KL-LV834L1",
@@ -555,7 +560,7 @@
     "model": "KC-HU2MMCA",
     "office":"",
     "fleetNo": "鹿交",
-    "image": "img/bus/kakou_.png"
+    "image": "img/bus/kakou_hu.png"
   },"00000011926882": {
     "plateNo": "87",
     "model": "KC-MP717M",
@@ -591,13 +596,13 @@
     "model": "KC-HT2MMCA",
     "office":"",
     "fleetNo": "京成",
-    "image": "img/bus/kakou_.png"
+    "image": "img/bus/kakou_hu.png"
   },"00000013599994": {
     "plateNo": "1059",
-    "model": "ADG-RD00",
-    "office":"リムジン",
-    "fleetNo": "",
-    "image": "img/bus/kakou.png"
+    "model": "KC-UA460LAN",
+    "office":"",
+    "fleetNo": "鹿交",
+    "image": "img/bus/kakou_nishikosyoki.png"
   },"00000013659908": {
     "plateNo": "1057",
     "model": "ADG-RD00",
@@ -611,7 +616,7 @@
     "fleetNo": "",
     "image": "img/bus/kakou_.png"
   },"00000013227167": {
-    "plateNo": "2297",
+    "plateNo": "2397",
     "model": "PKG-RA274KAN",
     "office":"",
     "fleetNo": "東急",
@@ -657,7 +662,7 @@
     "model": "KC-HU2MMCA",
     "office":"",
     "fleetNo": "鹿交",
-    "image": "img/bus/kakou_.png"
+    "image": "img/bus/kakou_hu.png"
   },"00000014587354": {
     "plateNo": "1097",
     "model": "U-RM210GSN",
@@ -717,7 +722,7 @@
     "model": "KC-HU2MMCA",
     "office":"",
     "fleetNo": "鹿交",
-    "image": "img/bus/kakou.png"
+    "image": "img/bus/kakou_hu.png"
   },"00000014654362": {
     "plateNo": "2330",
     "model": "ADG-RA273RBN改",
@@ -747,7 +752,7 @@
     "model": "KC-HU2MMCA",
     "office":"",
     "fleetNo": "京阪バス",
-    "image": "img/bus/kakou.png"
+    "image": "img/bus/kakou_hu.png"
   },"00000012165033": {
     "plateNo": "1827",
     "model": "KL-UA272KAM改",
@@ -777,7 +782,7 @@
     "model": "KC-HU2MMCA",
     "office":"",
     "fleetNo": "鹿交",
-    "image": "img/bus/kakou.png"
+    "image": "img/bus/kakou_hu.png"
   },"00000015350345": {
     "plateNo": "1310",
     "model": "KC-HU3KLCA",
@@ -797,10 +802,10 @@
     "fleetNo": "国際興業",
     "image": "img/bus/kakou_.png"
   },"00000013798274": {
-    "plateNo": "1352",
+    "plateNo": "1422",
     "model": "KC-MP317M",
     "office":"",
-    "fleetNo": "",
+    "fleetNo": "横浜市交通局",
     "image": "img/bus/kakou_mp35.png"
   },"00000013542867": {
     "plateNo": "1595",
@@ -814,12 +819,138 @@
     "office":"",
     "fleetNo": "阪急",
     "image": "img/bus/kakou_nishiko.png"
-  },"00000029111881": {
-    "plateNo": "2679",
-    "model": "PKG-RA274KAN",
+  },"00000013412059": {
+    "plateNo": "1567",
+    "model": "KC-HT2MMCA",
+    "office":"",
+    "fleetNo": "阪急",
+    "image": "img/bus/kakou_nishiko.png"
+  },"00000012341375": {
+    "plateNo": "1593",
+    "model": "KC-MP317M",
+    "office":"",
+    "fleetNo": "神奈中",
+    "image": "img/bus/kakou_mp35kana.png"
+  },"00000013625421": {
+    "plateNo": "2651",
+    "model": "PJ-LV234L1",
+    "office":"",
+    "fleetNo": "国際興業",
+    "image": "img/bus/kakou_.png"
+  },"00000013559484": {
+    "plateNo": "2484",
+    "model": "PKG-RA274RBN改",
+    "office":"リレー号",
+    "fleetNo": "東京空港交通",
+    "image": "img/bus/kakou.png"
+  },"00000013138542": {
+    "plateNo": "2015",
+    "model": "KC-MP747M",
+    "office":"",
+    "fleetNo": "阪急",
+    "image": "img/bus/kakou_nishikokouki.png"
+  },"00000012387693": {
+    "plateNo": "1647",
+    "model": "KC-LV280N",
+    "office":"",
+    "fleetNo": "神戸市交通局",
+    "image": "img/bus/kakou_cubic.png"
+  },"00000012928459": {
+    "plateNo": "1815",
+    "model": "KL-UA272KAN改",
+    "office":"",
+    "fleetNo": "西武",
+    "image": "img/bus/kakou_nishikosyoki.png"
+  },"00000014618713": {
+    "plateNo": "2037",
+    "model": "KL-JP252NAN改",
     "office":"",
     "fleetNo": "東急",
     "image": "img/bus/kakou_nishikotoukyu.png"
+  },"00000013207839": {
+    "plateNo": "1592",
+    "model": "KC-MP317M",
+    "office":"",
+    "fleetNo": "神奈中",
+    "image": "img/bus/kakou_mp35kana.png"
+  },"00000012906928": {
+    "plateNo": "2336",
+    "model": "KL-RA552RBN",
+    "office":"せんだい号",
+    "fleetNo": "東京空港交通",
+    "image": "img/bus/kakou.png"
+  },"00000012725399": {
+    "plateNo": "1665",
+    "model": "KC-HU3KLCA",
+    "office":"",
+    "fleetNo": "神戸市交通局",
+    "image": "img/bus/kakou_nishiko.png"
+  },"00000012948937": {
+    "plateNo": "2391",
+    "model": "2DG-RD00",
+    "office":"リムジン",
+    "fleetNo": "",
+    "image": "img/bus/kakou.png"
+  },"00000012682939": {
+    "plateNo": "2387",
+    "model": "2DG-RD00",
+    "office":"リムジン",
+    "fleetNo": "",
+    "image": "img/bus/kakou.png"
+  },"00000011969545": {
+    "plateNo": "2475",
+    "model": "PJ-MS86JP",
+    "office":"",
+    "fleetNo": "東京空港交通",
+    "image": "img/bus/kakou.png"
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
+  },"": {
+    "plateNo": "",
+    "model": "",
+    "office":"",
+    "fleetNo": "",
+    "image": "img/bus/kakou_.png"
   },"": {
     "plateNo": "",
     "model": "",
@@ -959,7 +1090,8 @@
     "plateNo": "20",
     "model": "KC-HU3KMCA",
     "office":"",
-    "fleetNo": "南国"
+    "fleetNo": "南国",
+    "image": "img/bus/nangoku_hu.png"
   },"00000005063360": {
     "plateNo": "2698",
     "model": "LKG-MP37FK",
@@ -1241,7 +1373,7 @@
     "model": "KC-HU3KMCA",
     "office":"",
     "fleetNo": "南国",
-    "image": "img/bus/nangoku_.png"
+    "image": "img/bus/nangoku_hu.png"
   },"00000004206705": {
     "plateNo": "771",
     "model": "PKG-LV234N2",
@@ -1283,7 +1415,7 @@
     "model": "KC-HU3KMCA",
     "office":"",
     "fleetNo": "南国",
-    "image": "img/bus/nangoku_.png"
+    "image": "img/bus/nangoku_hu.png"
   },"00000022910182": {
     "plateNo": "2305",
     "model": "PJ-KV234L1",
@@ -1343,7 +1475,7 @@
     "model": "KC-HU3KMCA",
     "office":"",
     "fleetNo": "南国",
-    "image": "img/bus/nangoku_.png"
+    "image": "img/bus/nangoku_hu.png"
   },"00000004818895": {
     "plateNo": "2131",
     "model": "PJ-MP35JM",
@@ -1410,7 +1542,7 @@
     "office":"",
     "fleetNo": "神奈中",
     "image": "img/bus/nangoku_mp35kana.png"
-  },"00000013625421": {
+  },"": {
     "plateNo": "2601",
     "model": "PKG-LV234L2",
     "office":"",
@@ -1428,106 +1560,125 @@
     "office":"",
     "fleetNo": "高槻市交通部",
     "image": "img/bus/nangoku_mp35.png"
+  },"00000023252101": {
+    "plateNo": "2181",
+    "model": "2DG-KV290N3",
+    "office":"",
+    "fleetNo": "南国"
+  },"00000023288530": {
+    "plateNo": "2180",
+    "model": "2DG-KV290N3",
+    "office":"",
+    "fleetNo": "南国",
+    "image": "img/bus/nangoku_.png"
+  },"00000005510161": {
+    "plateNo": "671",
+    "model": "PA-LR234J1改",
+    "office":"楠田車庫",
+    "fleetNo": "南国",
+    "image": "img/bus/nangoku_lv234.png"
+  },"00000023088141": {
+    "plateNo": "2209",
+    "model": "PJ-MP35JM",
+    "office":"",
+    "fleetNo": "神奈中",
+    "image": "img/bus/nangoku_mp35kana.png"
+  },"000000023038036": {
+    "plateNo": "2220",
+    "model": "PJ-MP35JM",
+    "office":"",
+    "fleetNo": "神奈中",
+    "image": "img/bus/nangoku_mp35kana.png"
+  },"00000004582540": {
+    "plateNo": "2699",
+    "model": "LKG-MP37FK",
+    "office":"",
+    "fleetNo": "東京都交通局",
+    "image": "img/bus/nangoku_mp37.png"
+  },"00000004866900": {
+    "plateNo": "1690",
+    "model": "QPG-KV234N3",
+    "office":"",
+    "fleetNo": "南国",
+    "image": "img/bus/nangoku_kv234.png"
+  },"00000005142289": {
+    "plateNo": "1165",
+    "model": "KC-LV280N",
+    "office":"",
+    "fleetNo": "高槻市交通部",
+    "image": "img/bus/nangoku_nishiko.png"
+  },"00000005465409": {
+    "plateNo": "767",
+    "model": "PKG-KV234N2",
+    "office":"",
+    "fleetNo": "南国",
+    "image": "img/bus/nangoku_kv234.png"
+  },"00000004996183": {
+    "plateNo": "1026",
+    "model": "KC-HU3KMCA",
+    "office":"",
+    "fleetNo": "南国",
+    "image": "img/bus/nangoku_hu.png"
+  },"00000023189251": {
+    "plateNo": "2194",
+    "model": "PJ-MP35JM",
+    "office":"",
+    "fleetNo": "神奈中",
+    "image": "img/bus/nangoku_mp35kana.png"
+  },"00000004768195": {
+    "plateNo": "2017",
+    "model": "KL-MP35JM",
+    "office":"",
+    "fleetNo": "神奈中",
+    "image": "img/bus/nangoku_mp35kana.png"
+  },"00000022925555": {
+    "plateNo": "2304",
+    "model": "PKG-LV234L2",
+    "office":"",
+    "fleetNo": "西武",
+    "image": "img/bus/nangoku_lv234.png"
+  },"00000023063368": {
+    "plateNo": "2211",
+    "model": "PJ-MP35JM",
+    "office":"",
+    "fleetNo": "神奈中",
+    "image": "img/bus/nangoku_mp35kana.png"
+  },"00000023038036": {
+    "plateNo": "2178",
+    "model": "2DG-LV290N3",
+    "office":"",
+    "fleetNo": "南国",
+    "image": "img/bus/nangoku_.png"
   },"": {
     "plateNo": "",
     "model": "",
     "office":"",
-    "fleetNo": ""
+    "fleetNo": "",
+    "image": "img/bus/nangoku_.png"
   },"": {
     "plateNo": "",
     "model": "",
     "office":"",
-    "fleetNo": ""
+    "fleetNo": "",
+    "image": "img/bus/nangoku_.png"
   },"": {
     "plateNo": "",
     "model": "",
     "office":"",
-    "fleetNo": ""
+    "fleetNo": "",
+    "image": "img/bus/nangoku_.png"
   },"": {
     "plateNo": "",
     "model": "",
     "office":"",
-    "fleetNo": ""
+    "fleetNo": "",
+    "image": "img/bus/nangoku_.png"
   },"": {
     "plateNo": "",
     "model": "",
     "office":"",
-    "fleetNo": ""
-  },"": {
-    "plateNo": "",
-    "model": "",
-    "office":"",
-    "fleetNo": ""
-  },"": {
-    "plateNo": "",
-    "model": "",
-    "office":"",
-    "fleetNo": ""
-  },"": {
-    "plateNo": "",
-    "model": "",
-    "office":"",
-    "fleetNo": ""
-  },"": {
-    "plateNo": "",
-    "model": "",
-    "office":"",
-    "fleetNo": ""
-  },"": {
-    "plateNo": "",
-    "model": "",
-    "office":"",
-    "fleetNo": ""
-  },"": {
-    "plateNo": "",
-    "model": "",
-    "office":"",
-    "fleetNo": ""
-  },"": {
-    "plateNo": "",
-    "model": "",
-    "office":"",
-    "fleetNo": ""
-  },"": {
-    "plateNo": "",
-    "model": "",
-    "office":"",
-    "fleetNo": ""
-  },"": {
-    "plateNo": "",
-    "model": "",
-    "office":"",
-    "fleetNo": ""
-  },"": {
-    "plateNo": "",
-    "model": "",
-    "office":"",
-    "fleetNo": ""
-  },"": {
-    "plateNo": "",
-    "model": "",
-    "office":"",
-    "fleetNo": ""
-  },"": {
-    "plateNo": "",
-    "model": "",
-    "office":"",
-    "fleetNo": ""
-  },"": {
-    "plateNo": "",
-    "model": "",
-    "office":"",
-    "fleetNo": ""
-  },"": {
-    "plateNo": "",
-    "model": "",
-    "office":"",
-    "fleetNo": ""
-  },"": {
-    "plateNo": "",
-    "model": "",
-    "office":"",
-    "fleetNo": ""
+    "fleetNo": "",
+    "image": "img/bus/nangoku_.png"
   },"": {
     "plateNo": "",
     "model": "",
@@ -1877,7 +2028,7 @@
     "office":"",
     "fleetNo": "市営",
     "image": "img/bus/city_city.png"
-  },"": {
+  },"00000019233560": {
     "plateNo": "1160",
     "model": "LJG-HU8JMGP",
     "office":"",
@@ -2051,7 +2202,7 @@
     "office":"",
     "fleetNo": "市営",
     "image": "img/bus/city_lv290.png"
-  },"": {
+  },"00000018246552": {
     "plateNo": "1954",
     "model": "2DG-LV290N2",
     "office":"",
@@ -2237,7 +2388,7 @@
     "office":"",
     "fleetNo": "市営",
     "image": "img/bus/city_lv234.png"
-  },"00000019233560": {
+  },"00000018528529": {
     "plateNo": "1016",
     "model": "PKG-RA274MAN",
     "office":"",
@@ -2264,13 +2415,6 @@
   },"": {
     "plateNo": "1163",
     "model": "PDG-LR234J2改",
-    "office":"",
-    "fleetNo": "市営",
-    "image": "img/bus/city_.png"
-  }
-,"": {
-    "plateNo": "552",
-    "model": "PA-LR234J1改",
     "office":"",
     "fleetNo": "市営",
     "image": "img/bus/city_.png"
@@ -2306,6 +2450,11 @@
     "model": "PA-LR234J1改",
     "office":"",
     "fleetNo": "シティビュー"
+  },"00000018604158": {
+    "plateNo": "207",
+    "model": "KK-MJ26HF改/",
+    "office":"",
+    "fleetNo": "市営"
   },
   "00000020537490": {
     "plateNo": "1113",
@@ -2341,14 +2490,21 @@
     "fleetNo": "JR"
   },"00000020511957": {
     "plateNo": "1803",
-    "model": "",
+    "model": "PKG-LV234N2",
     "office":"",
-    "fleetNo": "JR"
+    "fleetNo": "JR",
+    "image": "img/bus/jr_lv234.png"
   },"00000020560213": {
     "plateNo": "1416",
-    "model": "",
+    "model": "2RG-LV290N4",
     "office":"",
     "fleetNo": "JR"
+  },"00000020549679": {
+    "plateNo": "1420",
+    "model": "QKG-LV234N3",
+    "office":"",
+    "fleetNo": "JR",
+    "image": "img/bus/jr_lv234.png"
   }
 
 
