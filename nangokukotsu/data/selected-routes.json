@@ -1923,6 +1923,116 @@
     "routeName": "薩摩中央高校→小山田→中央駅→鹿児島駅",
     "companyId": "jp_kagoshima_jrkyushubus"
   },
+  {
+    "routeId": "00000043919530",
+    "routeName": "【屋久島(下り)】永田-安房港-栗生橋",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000074839741",
+    "routeName": "【屋久島(上り)】栗生橋-安房港-永田",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000044569630",
+    "routeName": "【屋久島(下り)】永田-栗生橋",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000044306871",
+    "routeName": "【屋久島(上り)】栗生橋-永田",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000043619292",
+    "routeName": "【屋久島(下り)】永田-安房港-いわさきホテル",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000044310710",
+    "routeName": "【屋久島(上り)】いわさきホテル-安房港-永田",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000044576371",
+    "routeName": "【屋久島(下り)】宮之浦港-安房港-大川の滝",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000044325070",
+    "routeName": "【屋久島(上り)】大川の滝-安房港-宮之浦港",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000043677095",
+    "routeName": "【屋久島】宮之浦港-白谷雲水峡",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000044343781",
+    "routeName": "【屋久島】白谷雲水峡-宮之浦港",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000044357367",
+    "routeName": "【屋久島】紀元杉-合庁前",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000043727209",
+    "routeName": "【屋久島】合庁前-安房港-紀元杉",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000044602461",
+    "routeName": "【屋久島(上り)】宮之浦港-永田",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000043760611",
+    "routeName": "【屋久島】屋久杉自然館-いわさきホテル",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000043777001",
+    "routeName": "【屋久島】いわさきホテル-屋久杉自然館-安房港",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000043787631",
+    "routeName": "【屋久島】シーサイド-屋久杉自然館",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000043791810",
+    "routeName": "【屋久島(下り)】宮之浦港-シーサイド-安房港",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000044521037",
+    "routeName": "【屋久島】屋久杉自然館-シーサイド",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000043817250",
+    "routeName": "【屋久島(下り)】永田-いわさきホテル",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000044371390",
+    "routeName": "【屋久島(上り)】いわさきホテル-永田",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000043835045",
+    "routeName": "【屋久島(下り)】宮之浦港-安房港-栗生橋",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
+  {
+    "routeId": "00000043879803",
+    "routeName": "【屋久島(下り)】JRホテル-栗生橋",
+    "companyId": "jp_kagoshima_kagoshimakotsu"
+  },
   {"routeId":"00000060469759","routeName":"【10】広木農協前-天神南-中央駅-高齢者福祉センター伊敷","companyId":"jp_kagoshima_kagoshimakotsu"},
   {"routeId":"00000060471081","routeName":"【10】高齢者福祉センター伊敷-中央駅西口-天神南-広木農協前","companyId":"jp_kagoshima_kagoshimakotsu"},
   {"routeId":"00000060490083","routeName":"【10】高齢者福祉センター-伊敷鹿児島中央駅西口","companyId":"jp_kagoshima_kagoshimakotsu"},
